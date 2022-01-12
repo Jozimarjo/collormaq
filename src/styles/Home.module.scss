@@ -1,0 +1,10 @@
+.box {
+  transition: all 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #00000029;
+    // filter: brightness(0.95);
+  }
+}
