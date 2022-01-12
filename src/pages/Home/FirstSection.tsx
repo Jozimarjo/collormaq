@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
-export function FirstSection() {
+export default function FirstSection() {
     return (
         <Box
             maxWidth="1920px"

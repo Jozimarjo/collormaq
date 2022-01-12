@@ -1,5 +1,5 @@
 import { Box, Flex, HStack, Icon, Image, Text } from "@chakra-ui/react";
-import { FirstSection } from "./FirstSection";
+import FirstSection from "./FirstSection";
 import { RiMapPinLine, RiMapPinFill } from 'react-icons/ri'
 import style from '../../styles/Home.module.scss';
 import lopMap from '../../../public/images/position_icon.svg';
@@ -30,7 +30,7 @@ export default function Home() {
                                 <HStack mt='16'>
                                     <Box width='120px' h='120px' borderRadius='5px' className={style.box}>
                                         <Flex height='100%' justify="space-around" direction='column' align='center' >
-                                            <Box><Image src={lopMap}></Image></Box>
+                                            <Box><Image alt="pointer maps icon" src={lopMap}></Image></Box>
                                             <Flex direction='column' align='center'>
                                                 <Text color='#262626'>Manaus</Text>
                                                 <Text fontSize="12" color='#262626'>Amazonas</Text>
@@ -39,7 +39,7 @@ export default function Home() {
                                     </Box>
                                     <Box width='120px' h='120px' borderRadius='5px' className={style.box}>
                                         <Flex height='100%' justify="space-around" direction='column' align='center' >
-                                            <Box><Image src={lopMap}></Image></Box>
+                                            <Box><Image alt="pointer maps icon" src={lopMap}></Image></Box>
                                             <Flex direction='column' align='center'>
                                                 <Text color='#262626'>Porto Velho</Text>
                                                 <Text fontSize="12" color='#262626'>Rondônia</Text>
@@ -48,7 +48,7 @@ export default function Home() {
                                     </Box>
                                     <Box width='120px' h='120px' borderRadius='5px' className={style.box}>
                                         <Flex height='100%' justify="space-around" direction='column' align='center' >
-                                            <Box><Image src={lopMap}></Image></Box>
+                                            <Box><Image alt="pointer maps icon" src={lopMap}></Image></Box>
                                             <Flex direction='column' align='center'>
                                                 <Text color='#262626'>Boa Vista</Text>
                                                 <Text fontSize="12" color='#262626'>Roraima</Text>
