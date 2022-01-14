@@ -8,3 +8,18 @@
     // filter: brightness(0.95);
   }
 }
+
+.boxShadow {
+  box-shadow: 0px 0px 20px #00000029;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.JozimarBOdy::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.JozimarBOdy {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
