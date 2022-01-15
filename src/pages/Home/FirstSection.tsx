@@ -1,6 +1,12 @@
-import { Box, Button, Flex, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Flex, Text, useBreakpointValue, VStack } from "@chakra-ui/react";
 import { Header } from "../../components/Header";
 export default function FirstSection() {
+    const isWideVersion = useBreakpointValue({
+        base: false,
+        lg: true
+    });
+    console.log('is wide: ', isWideVersion);
+
     return (
         <Box
             width="100%"
@@ -9,16 +15,26 @@ export default function FirstSection() {
             backgroundImage="linear-gradient(
                 91deg, rgb(0 0 109 / 66%), rgb(5 82 46 / 56%) , rgb(9 140 79 / 72%) ),url(/images/home.svg)">
             <Header />
-            <Flex mt={['32', '0']} align={['none', 'center']} w='100%' h='100%'>
-                <Flex ml={['5', '22em']} direction='column'>
-                    <VStack spacing={4} align='left'>
-                        <Text>
-                            <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={['36', '80']} color='white'> Solução em Etiquetas </Text>
-                            <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={['36', '80']} color='white'> e Bobinas Térmicas </Text>
+            <Flex mt={{ base: '32', lg: '0' }}
+                align={{ base: 'none', lg: 'center' }}
+                w='100%' h='100%'>
+                <Flex ml={{ base: '8', lg: '22em' }} direction='column'>
+                    <VStack spacing={8} align='left'>
+                        <Text as='span' w={{ base: '315px', lg: '100%' }}>
+                            <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={{ base: '36', lg: '80' }} color='white'>
+                                Solução em Etiquetas {!isWideVersion && 'e'}
+                            </Text>
+                            <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={{ base: '36', lg: '80' }} color='white'>
+                                {isWideVersion && 'e'} Bobinas Térmicas
+                            </Text>
                         </Text>
 
                         <Box maxWidth='837px'>
-                            <Text textShadow='0px 0px 6px #000000a1;' fontSizefontWeight='sm' fontSize={['16', '28']} color='white'>
+                            <Text
+                                textShadow='0px 0px 6px #000000a1;'
+                                w={{ base: '315px', lg: '100%' }}
+                                fontWeight='sm'
+                                fontSize={{ base: '16', lg: '28' }} color='white'>
                                 Etiquetas e Rótulos personalizados para indústria e comércio. Bobinas Térmicas personalizadas.
                                 Ribbons, Etiquetadoras, Impressoras Térmicas etc.
                             </Text>
@@ -30,6 +46,6 @@ export default function FirstSection() {
                 </Flex>
             </Flex>
 
-        </Box>
+        </Box >
     )
 }
