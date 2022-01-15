@@ -21,7 +21,7 @@ export default function FirstSection() {
                 <Flex ml={{ base: '8', lg: '22em' }} direction='column'>
                     <VStack spacing={8} align='left'>
                         <Text as='span' w={{ base: '315px', lg: '100%' }}>
-                            <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={{ base: '36', lg: '80' }} color='white'>
+                            <Text textShadow='0px 0px 6px #000000a1;' lineHeight='42px' fontWeight='bold' fontSize={{ base: '36', lg: '80' }} color='white'>
                                 Solução em Etiquetas {!isWideVersion && 'e'}
                             </Text>
                             <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={{ base: '36', lg: '80' }} color='white'>
