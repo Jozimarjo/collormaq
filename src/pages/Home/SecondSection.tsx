@@ -2,26 +2,28 @@ import { Box, Flex, HStack, Image, Text } from "@chakra-ui/react";
 import style from '../../styles/Home.module.scss';
 import lopMap from '../../../public/images/position_icon.svg';
 import secondImg from '../../../public/images/section_2_mobile.svg';
+import secondMaxImg from '../../../public/images/section_2x.svg';
 
 export default function SecondSection() {
     return (
-        <Box width='100%' p='4' bgColor='gray.100' maxHeight='900px'>
-            <Flex direction={['column', 'row']} justify='space-around' w='100%'>
+
+        <Box width='100%' p='4' bgColor='gray.100' height="935px">
+            <Flex direction={['column', 'row']} justify='space-evenly' alignItems='center' w='100%' h='100%'>
                 {/* <Box w='525px' h='560px' backgroundImage="url('/images/second_section.jpg')"></Box> */}
-                <Box w={['315px', '525px']} >
-                    <Image alt="pointer maps icon" src={secondImg} />
+                <Box display='flex' justifyContent='center' w={['315px', '525px']} >
+                    <Image alt="pointer maps icon" src={secondMaxImg} />
                 </Box>
 
 
-                <Flex p='7' direction='column'>
+                <Flex p='7' alignSelf={['flex-start', 'center']} direction='column'>
                     <Text fontWeight='bold' color='green.800' fontSize={['28', '48']}>
                         Quem somos
                     </Text>
-                    <Text mt='8' w='315px' maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
+                    <Text mt='8' w={['315px','450px']} maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
                         Fundada em 2003, a Collormaq atua no segmento flexográfico,
                         confeccionando rótulos, etiquetas e bobinas térmicas.
                     </Text>
-                    <Text mt='8' w='315px' maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
+                    <Text mt='8' w={['315px','450px']} maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
                         Atendemos todas as necessidades da indústria, comércio e serviço.
                         Investimos constantemente em equipamentos de ponta e treinamento de colaboradores,
                         visando crescimento, comprometimento, qualidade dos produtos, e presteza no atendimento aos nossos clientes.
