@@ -20,11 +20,11 @@ export default function FirstSection() {
                 w='100%' h='100%'>
                 <Flex ml={{ base: '8', lg: '22em' }} direction='column'>
                     <VStack spacing={8} align='left'>
-                        <Text as='span' w={{ base: '315px', lg: '100%' }}>
-                            <Text textShadow='0px 0px 6px #000000a1;' lineHeight='42px' fontWeight='bold' fontSize={{ base: '36', lg: '80' }} color='white'>
+                        <Text as='span' w={{ base: '100%', lg: '100%' }}>
+                            <Text textShadow='0px 0px 6px #000000a1;' lineHeight='42px' fontWeight='bold' fontSize={{ base: '2.25em', lg: '5em' }} color='white'>
                                 Solução em Etiquetas {!isWideVersion && 'e'}
                             </Text>
-                            <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={{ base: '36', lg: '80' }} color='white'>
+                            <Text textShadow='0px 0px 6px #000000a1;' fontWeight='bold' fontSize={{ base: '2.25em', lg: '5em' }} color='white'>
                                 {isWideVersion && 'e'} Bobinas Térmicas
                             </Text>
                         </Text>
@@ -32,9 +32,9 @@ export default function FirstSection() {
                         <Box maxWidth='837px'>
                             <Text
                                 textShadow='0px 0px 6px #000000a1;'
-                                w={{ base: '315px', lg: '100%' }}
+                                w={{ base: '100%', lg: '100%' }}
                                 fontWeight='sm'
-                                fontSize={{ base: '16', lg: '28' }} color='white'>
+                                fontSize={{ base: '1em', lg: '1.75em' }} color='white'>
                                 Etiquetas e Rótulos personalizados para indústria e comércio. Bobinas Térmicas personalizadas.
                                 Ribbons, Etiquetadoras, Impressoras Térmicas etc.
                             </Text>

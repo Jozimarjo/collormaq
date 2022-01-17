@@ -9,7 +9,7 @@ export default function Home() {
             <Flex w='100%' h='100%' className='Jozimar' direction='column'>
                 <FirstSection />
                 <SecondSection />
-                <Box as='section' p='4' w='100%' bgColor="#305F3C" display='flex' flexDirection='column' >
+                {/* <Box as='section' p='4' w='100%' bgColor="#305F3C" display='flex' flexDirection='column' >
                     <Flex w='100%' direction='column' align={{ base: 'flex-start', lg: 'center' }}>
                         <Text my='8' fontWeight='bold' fontSize={{ base: '28', lg: '48' }}>Soluções em</Text>
                         <Text mb='16' fontSize='16' width={{ base: '314px', lg: '484px' }} maxWidth='31em'>
@@ -56,7 +56,7 @@ export default function Home() {
                             </Flex >
                         </Box >
                     </SimpleGrid >
-                </Box >
+                </Box > */}
 
             </Flex >
             {/* <Box w='100%' display='flex' justifyContent='center'>

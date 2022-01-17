@@ -20,15 +20,15 @@ export default function SecondSection() {
                 </Box>
 
 
-                <Flex p='7' alignSelf={{ base: 'flex-start', lg: 'center' }} direction='column'>
+                <Flex p={{ base: '5', lg: '7' }} alignSelf={{ base: 'flex-start', lg: 'center' }} direction='column'>
                     <Text fontWeight='bold' color='green.800' fontSize={{ base: '28', lg: '48' }}>
                         Quem somos
                     </Text>
-                    <Text mt='8' w={{ base: '315px', lg: '450px' }} maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
+                    <Text mt='8' w={{ base: '100%', lg: '450px' }} maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
                         Fundada em 2003, a Collormaq atua no segmento flexográfico,
                         confeccionando rótulos, etiquetas e bobinas térmicas.
                     </Text>
-                    <Text mt='8' w={{ base: '315px', lg: '450px' }} maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
+                    <Text mt='8' w={{ base: '100%', lg: '450px' }} maxWidth='464px' fontWeight='normal' color='#262626' fontSize='16'>
                         Atendemos todas as necessidades da indústria, comércio e serviço.
                         Investimos constantemente em equipamentos de ponta e treinamento de colaboradores,
                         visando crescimento, comprometimento, qualidade dos produtos, e presteza no atendimento aos nossos clientes.
