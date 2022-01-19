@@ -3,13 +3,10 @@ import { Profile } from "./Profile";
 import { MenuIconsNav } from "./MenuIconsNav";
 import { SearchBox } from "./SearchBox";
 import { Logo } from "./Logo";
+import { useEffect, useState } from "react";
+import { ScreenSize } from "../../interfaces/ScreenSize";
 
-export function Header() {
-    const  isWideVersion = useBreakpointValue({
-        base: false,
-        lg: true
-    });    
-    
+export default function Header({ isWideVersion }: ScreenSize) {
     return (
         <Flex
             as="header"
@@ -22,11 +19,8 @@ export function Header() {
             align="center"
         >
             <Logo />
-
-            {/* <SearchBox /> */}
             <Flex align="center" ml="auto">
-                { isWideVersion && <MenuIconsNav /> }
-                {/* <Profile /> */}
+                {isWideVersion && <MenuIconsNav />}
             </Flex>
         </Flex>
     )
