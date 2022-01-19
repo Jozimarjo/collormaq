@@ -14,13 +14,12 @@ export default function SecondSection() {
                 alignItems='center'
                 w='100%'
                 h='100%'>
-                {/* <Box w='525px' h='560px' backgroundImage="url('/images/second_section.jpg')"></Box> */}
                 <Box display='flex' justifyContent='center' w={{ base: '315px', lg: '525px' }} >
                     <Image alt="pointer maps icon" src={secondMaxImg} />
                 </Box>
 
 
-                <Flex p={{ base: '5', lg: '7' }} alignSelf={{ base: 'flex-start', lg: 'center' }} direction='column'>
+                <Flex p={{ base: '5', lg: '7' }} alignSelf={{ base: 'flex-start', sm: 'center' }} alignItems={{base: 'flex-start', sm: 'center' }} direction='column'>
                     <Text fontWeight='bold' color='green.800' fontSize={{ base: '28', lg: '48' }}>
                         Quem somos
                     </Text>
@@ -44,6 +43,7 @@ export default function SecondSection() {
                                 </Flex>
                             </Flex>
                         </Box>
+
                         <Box width={{ base: '90px', lg: '120px' }} h={{ base: '90px', lg: '120px' }} borderRadius='5px' className={style.box}>
                             <Flex height='100%' justify="space-around" direction='column' align='center' >
                                 <Box w={21}><Image alt="pointer maps icon" src={lopMap}></Image></Box>
@@ -53,6 +53,7 @@ export default function SecondSection() {
                                 </Flex>
                             </Flex>
                         </Box>
+
                         <Box width={{ base: '90px', lg: '120px' }} h={{ base: '90px', lg: '120px' }} borderRadius='5px' className={style.box}>
                             <Flex height='100%' justify="space-around" direction='column' align='center' >
                                 <Box w={21}><Image alt="pointer maps icon" src={lopMap}></Image></Box>

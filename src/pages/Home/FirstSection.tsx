@@ -5,15 +5,15 @@ export default function FirstSection() {
         base: false,
         lg: true
     });
-    console.log('is wide: ', isWideVersion);
 
     return (
         <Box
             width="100%"
             maxWidth="1920px"
             height="935px"
+            opacity="0.88"
             backgroundImage="linear-gradient(
-                91deg, rgb(0 0 109 / 66%), rgb(5 82 46 / 56%) , rgb(9 140 79 / 72%) ),url(/images/home.svg)">
+                59deg, #17179659 0%, #098c4f96 100%),url(/images/home.svg);">
             <Header />
             <Flex mt={{ base: '32', lg: '0' }}
                 align={{ base: 'none', lg: 'center' }}
