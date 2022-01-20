@@ -79,6 +79,7 @@ export default function ThirdSection() {
                             className={style.boxShadow}
                             bg='white'
                             mb='5'
+                            cursor='pointer'
                             maxWidth='564px'
                             key={product.id}
                             borderRadius={20}
