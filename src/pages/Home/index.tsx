@@ -1,5 +1,6 @@
 import { Flex, useBreakpointValue } from "@chakra-ui/react";
 import FirstSection from "./FirstSection";
+import FourthSection from "./FourthSection";
 import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 
@@ -16,6 +17,7 @@ export default function Home() {
                 <FirstSection isWideVersion={isWideVersion} />
                 <SecondSection />
                 <ThirdSection />
+                <FourthSection />
             </Flex>
         </>
     )
