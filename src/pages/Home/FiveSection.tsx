@@ -16,8 +16,8 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
 
             <Flex justify="center" pl={{ base: '0', lg: '146px' }}>
                 <Box width="82%">
-                    <HStack className="MEUTESTE" alignItems={{ base: 'start', lg: 'center' }} flexDirection={{ base: 'column', lg: 'row' }} spacing={{ base: '0', lg: '16' }}>
-                        <Flex direction="column">
+                    <HStack alignItems={{ base: 'start', lg: 'start' }} flexDirection={{ base: 'column', lg: 'row' }} spacing={{ base: '0', lg: '16' }}>
+                        <Flex flex='1' direction="column">
                             <Text mb='30px' fontSize="48px" fontWeight='bold'>Collormaq</Text>
                             <Text mb='40px' fontSize="16px" fontWeight='normal' maxWidth="480px">
                                 O sistema de impressão em flexografia e offset
@@ -31,10 +31,10 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
                                 </Button>
                             </Flex>
                         </Flex>
-                        {isWideVersion && (<Divider orientation='vertical' height='214px'></Divider>)}
+                        {isWideVersion && (<Divider orientation='vertical' height='250px'></Divider>)}
 
 
-                        <Flex flexWrap='wrap' justify={{ base: 'sapce-between', lg: 'space-around' }}>
+                        <Flex flex='1' w='100%' flexWrap='wrap' justify={{ base: 'space-between', xl: 'space-around' }}>
                             <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
                                 <Text as='h1' fontSize='21' width='100px'>
                                     Menu
@@ -56,7 +56,7 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
                                     Informação
                                 </Text>
                             </VStack>
-                            <VStack mb='20px' mr='20px'alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
+                            <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
                                 <Text as='h1' fontSize='21' width='100px'>
                                     Menu
                                 </Text>
@@ -77,7 +77,7 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
                                     Informação
                                 </Text>
                             </VStack>
-                            <VStack mb='20px' mr='20px'alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
+                            <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
                                 <Text as='h1' fontSize='21' width='100px'>
                                     Menu
                                 </Text>
