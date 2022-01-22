@@ -1,5 +1,7 @@
 import { Box, Text, useBreakpointValue } from "@chakra-ui/react";
 import FirstSection from "./FirstSection";
+import SecondSection from "./SecondSection";
+import ThirdSection from "./ThirdSection";
 
 export default function QuemSomos() {
     const comp = {
@@ -19,7 +21,11 @@ export default function QuemSomos() {
         lg: true
     });
     return (
-        <FirstSection title={comp.title} subTitle={comp.subTitle} isWideVersion={isWideVersion} />
+        <>
+            <FirstSection title={comp.title} subTitle={comp.subTitle} isWideVersion={isWideVersion} />
+            <SecondSection />
+            <ThirdSection />
+        </>
 
     )
 }
