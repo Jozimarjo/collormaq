@@ -13,9 +13,9 @@ export default function Header({ isWideVersion }: ScreenSize) {
             w="100%"
             maxWidth={1200}
             h="16"
+            pt='4'
             mx="auto"
-            mt="4"
-            px="6"
+            pl={{ base: '0', md: '0', xl:'3,75em' }}
             align="center"
         >
             <Logo />

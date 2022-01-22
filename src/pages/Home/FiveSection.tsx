@@ -7,10 +7,10 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
         <Box w='100%' backgroundImage="linear-gradient(69deg, rgba(10,27,74,1) 0%, rgba(48,95,60,1) 79%)">
             <Box p={{ base: '30px', md: '82px' }} display='flex' justifyContent='center' align='center' width='100%'>
                 <Flex width={{ base: '100%', lg: '82%' }} justify={{ base: 'space-between', lg: 'space-evenly' }}>
-                    <Icon fontSize='30' as={RiFacebookFill} />
-                    <Icon fontSize='30' as={RiInstagramLine} />
-                    <Icon fontSize='30' as={RiLinkedinFill} />
-                    <Icon fontSize='30' as={RiWhatsappLine} />
+                    <Box as='a' href='https://www.google.com'> <Icon fontSize='30' as={RiFacebookFill} /> </Box>
+                    <Box as='a' href='https://www.google.com'> <Icon fontSize='30' as={RiInstagramLine} /></Box>
+                    <Box as='a' href='https://www.google.com'> <Icon fontSize='30' as={RiLinkedinFill} /></Box>
+                    <Box as='a' href='https://www.google.com'> <Icon fontSize='30' as={RiWhatsappLine} /></Box>
                 </Flex>
             </Box>
 
