@@ -4,7 +4,7 @@ export default function ThirdSection() {
     return (
         <Box display='flex' p='30px' flexDirection='column' justifyContent='space-around' alignItems={{ base: 'flex-start', sm: 'center' }} background='#414181' w='100%'>
             <Flex ml={{ base: '0', sm: '0' }} maxWidth='586px' direction='column' align={{ base: 'flex-start', sm: 'center' }} justify='center' width='100%' my='16' >
-                <Text fontSize={{ base: '28px', sm: '48px' }} mb='28px' fontWeight='bold'>Nossos diferencias</Text>
+                <Text fontSize={{ base: '28px', sm: '48px' }} mb='28px' textAlign={{base:'left', sm: 'center' }} fontWeight='bold'>Nossos diferencias</Text>
                 <Text fontSize='16px' fontWeight='normal' lineHeight='24px' textAlign={{ sm: 'center' }}>Nosso compromisso com produtos de qualidade e entrega ágil segue sendo nosso principal diferencial frente a concorrência.</Text>
             </Flex>
             <HStack flexWrap='wrap' justify="center" spacing={{ base: '0', md: "12" }} rowGap='10' width={{ base: '100%', '2xl': '100%' }}>
