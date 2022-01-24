@@ -7,7 +7,7 @@ interface FirstSection extends ScreenSize {
         paragraph: string[]
     }
 }
-export default function FirstSection({ title, subTitle, isWideVersion = true }: FirstSection) {
+export default function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersion = true }: FirstSection) {
     return (
         <FirstSectionComponent
             bgImage='linear-gradient(
