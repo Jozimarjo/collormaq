@@ -17,7 +17,7 @@ export default function Header({ isWideVersion = true }: ScreenSize) {
         >
             <Logo />
             <Flex align="center" ml="auto">
-                {isWideVersion && (<MenuIconsNav />)}
+                {!!isWideVersion && (<MenuIconsNav />)}
             </Flex>
         </Flex>
     )

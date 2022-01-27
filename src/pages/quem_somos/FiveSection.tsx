@@ -11,6 +11,7 @@ export default function FiveSection() {
                     A Collormaq o ajudará a transformar suas idéais em realidade e dar o destaque que seu produto merece. Confira abaixo:
                 </Text>
             </Flex>
+
             <Flex direction="column" gap={{ base: '136px', lg: "236px" }}>
 
                 <Flex gap={{ base: '30px', lg: '5%' }} direction={{ base: "column", md: 'row' }}>
@@ -141,7 +142,7 @@ export default function FiveSection() {
                         display='flex'
                         justifyContent="flex-end"
                         alignSelf="flex-end"
-                        flex={{ base: 0, lg: 1 }}
+                        flex={{ base: 'auto', lg: 1 }}
                         order={{ base: 2, md: 2 }}
                         position='relative'>
 
