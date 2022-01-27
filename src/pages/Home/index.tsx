@@ -6,12 +6,13 @@ import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 
 export default function Home() {
-    let isWideVersion = useBreakpointValue({
+    const isWideVersion = useBreakpointValue({
         base: false,
         sm: false,
         md: false,
         lg: true
     });
+
     return (
         <>
             <Flex w='100%' h='100%' direction='column'>

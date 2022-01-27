@@ -16,7 +16,7 @@ export default function QuemSomos() {
     }
 
 
-    let isWideVersion = useBreakpointValue({
+    const isWideVersion = useBreakpointValue({
         base: false,
         sm: false,
         md: false,

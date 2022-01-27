@@ -10,9 +10,10 @@ interface FirstSection extends ScreenSize {
 export default function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersion = true }: FirstSection) {
     return (
         <FirstSectionComponent
+            isWideVersion={isWideVersion}
             bgImage='linear-gradient(
                 59deg, #174a96 0%, #098c4f66 100%),url(/images/quem_somos_section_1.svg)'
-            isWideVersion={isWideVersion}>
+        >
             <>
                 <Flex direction='column' w={{ base: '100%', lg: '100%' }}>
                     <Text
