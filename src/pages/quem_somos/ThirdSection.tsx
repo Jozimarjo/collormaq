@@ -12,7 +12,6 @@ export default function ThirdSection() {
                 <VStack ml={{ base: '0', md: '12' }} h={{ base: '100%', md: '330px' }} spacing="8" maxWidth={{ base: "367px", '2xl': '30%' }} align="start">
                     <Box display='flex' justifyContent='center' alignItems='center' w='62px' h='62px' borderRadius='50%'
                         background='white'
-                    // background={{ base: 'white', sm: '#ff0000', md: '#0019ff', lg: '#00ff3e', xl: '#e9ff00', '2xl': '#ea00ff' }}
                     >
                         <Text fontSize='36px' color='#414181' fontWeight='bold'>1</Text>
                     </Box>

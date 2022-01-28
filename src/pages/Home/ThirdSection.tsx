@@ -20,37 +20,37 @@ export default function ThirdSection() {
             id: 1,
             title: 'Bobinas',
             description: 'Bobinas Térmicas a pronta entrega confeccionadas em material com garantia de procedência, podendo ser personalizadas em até 04 cores!',
-            img: '/images/products/mockup_bobina_personalizada.svg'
+            img: '/images/product/bobinas_2.svg'
         },
         {
             id: 2,
             title: 'Etiquetas',
             description: 'Etiquetas adesivas customizadas, em diversos substratos e se necessário com adição de dados variáveis.',
-            img: '/images/products/etiquetas.svg'
+            img: '/images/product/etiquetas_2.svg'
         },
         {
             id: 3,
             title: 'Rótulos',
             description: 'Alta qualidade de impressão, com grande lineatura e acabamentos superiores à média de mercado.',
-            img: '/images/products/suprimentos.svg'
+            img: '/images/product/rotulos_2.svg'
         },
         {
             id: 4,
             title: 'Suprimentos',
             description: 'Etiquetadoras, tinteiros, tira senhas, pinos, trava anel, ribbons para impressoras térmicas entre outros itens.',
-            img: '/images/products/suprimentos.svg'
+            img: '/images/product/suprimentos_2.svg'
         },
         {
             id: 5,
             title: 'Impressoras Térmicas',
             description: 'Mais produtividade nos processos de identificação e rastreamento de dados. Soluções completa para todos os setores.',
-            img: '/images/products/suprimentos.svg'
+            img: '/images/product/suprimentos_2.svg'
         },
         {
             id: 6,
             title: 'Automação Comercial',
             description: 'Deixe a infraestrutura da sua empresa mais completa, ágil e eficiente com nossos produtos, são monitores, balanças, caixa registradora etc.',
-            img: '/images/products/suprimentos.svg'
+            img: '/images/product/suprimentos_2.svg'
         },
     ]
     return (

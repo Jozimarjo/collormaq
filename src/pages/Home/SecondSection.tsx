@@ -1,7 +1,7 @@
 import { Box, Flex, HStack, Image, Text } from "@chakra-ui/react";
 import style from '../../styles/Home.module.scss';
 import lopMap from '../../../public/images/position_icon.svg';
-import secondMaxImg from '../../../public/images/section_2x.svg';
+import secondMaxImg from '../../../public/images/imagem_quem_somos.svg';
 import SecondSectionComponent from "../../components/SecondSection";
 
 export default function SecondSection() {
