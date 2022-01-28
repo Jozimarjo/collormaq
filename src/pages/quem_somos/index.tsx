@@ -1,4 +1,6 @@
 import { Box, Text, useBreakpointValue } from "@chakra-ui/react";
+import { EntreContato } from "../../components/EntreContato";
+import FooterComponent from "../../components/Footer";
 import FirstSection from "./FirstSection";
 import FiveSection from "./FiveSection";
 import FourthSection from "./FourthSection";
@@ -30,7 +32,8 @@ export default function QuemSomos() {
             <ThirdSection />
             <FourthSection />
             <FiveSection />
-
+            <EntreContato />
+            <FooterComponent isWideVersion={isWideVersion} />
         </>
 
     )

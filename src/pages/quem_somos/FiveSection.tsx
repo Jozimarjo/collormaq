@@ -2,7 +2,7 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 export default function FiveSection() {
     return (
-        <Box w='100%' h='900px'>
+        <Box w='100%' mb='230px'>
             <Flex w='100%' direction='column' align={{ base: 'flex-start', sm: 'center' }}>
                 <Text my='8' fontWeight='bold' fontSize={{ base: '28', sm: '48' }} color='#414181'>
                     Produtos que desenvolvemos
@@ -174,9 +174,6 @@ export default function FiveSection() {
                     </Box>
 
                 </Flex>
-
-
-
             </Flex>
         </Box>
     );
