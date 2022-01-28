@@ -44,13 +44,13 @@ export default function ThirdSection() {
             id: 5,
             title: 'Impressoras Térmicas',
             description: 'Mais produtividade nos processos de identificação e rastreamento de dados. Soluções completa para todos os setores.',
-            img: '/images/product/suprimentos_2.svg'
+            img: '/images/product/impressoras_2.svg'
         },
         {
             id: 6,
             title: 'Automação Comercial',
             description: 'Deixe a infraestrutura da sua empresa mais completa, ágil e eficiente com nossos produtos, são monitores, balanças, caixa registradora etc.',
-            img: '/images/product/suprimentos_2.svg'
+            img: '/images/product/automação_2.svg'
         },
     ]
     return (
