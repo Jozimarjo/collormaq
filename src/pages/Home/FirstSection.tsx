@@ -6,7 +6,7 @@ export default function FirstSection({ isWideVersion = true }: ScreenSize) {
 
     return (
         <FirstSectionComponent 
-        isWideVersion={true} 
+        isWideVersion={isWideVersion} 
         bgImage="linear-gradient(59deg, #17179659 0%, #098c4f96 100%),url(/images/home.svg)">
             <>
                 <Flex direction="column" w={{ base: '100%', lg: '100%' }}>

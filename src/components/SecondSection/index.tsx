@@ -8,7 +8,7 @@ interface SecondSectionProps {
 }
 export default function SecondSectionComponent({ img, children }: SecondSectionProps) {
     return (
-        <Box width='100%' p='4' bgColor='gray.100'>
+        <Box width='100%' p='4' my='125px' bgColor='gray.100'>
             <Flex
                 direction={{ base: 'column', lg: 'row' }}
                 justify='space-evenly'
