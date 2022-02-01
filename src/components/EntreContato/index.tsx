@@ -2,7 +2,7 @@ import { Box, Button, Flex, Text } from "@chakra-ui/react";
 
 export function EntreContato() {
     return (
-        <Box w='100%' height='440px'
+        <Box w='100%' height={{ base: '248px', md: '440px' }}
             backgroundImage='linear-gradient(0deg, rgb(33 52 114 / 72%) 0%, rgb(33 52 114 / 26%) 100%),url(/images/footer.svg)'
             backgroundRepeat='no-repeat'>
             <Flex direction='column' justify="center" alignItems="center" height="100%">

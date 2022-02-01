@@ -33,7 +33,7 @@ export default function FirstSection({ title, subTitle = { paragraph: [] }, isWi
                             textShadow='0px 0px 6px #000000a1;'
                             w={{ base: '100%', lg: '100%' }}
                             fontWeight='normal'
-                            lineHeight={{ base: '21px', sm: '34px' }}
+                            lineHeight={{ base: '21px', sm: '24px' }}
                             mb='4'
                             fontSize={{ base: '1em', lg: '1.75em' }} color='white'>
                             {paragraph}

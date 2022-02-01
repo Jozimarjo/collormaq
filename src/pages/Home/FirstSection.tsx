@@ -12,7 +12,7 @@ export default function FirstSection({ isWideVersion = true }: ScreenSize) {
                 <Flex direction="column" w={{ base: '100%', lg: '100%' }}>
                     <Text
                         textShadow='0px 0px 6px #000000a1;'
-                        lineHeight='42px'
+                        lineHeight='70px'
                         fontWeight='bold'
                         fontSize={{ base: '2.25em', lg: '5em' }}
                         color='white'>
@@ -27,7 +27,7 @@ export default function FirstSection({ isWideVersion = true }: ScreenSize) {
                     </Text>
                 </Flex>
 
-                <Box maxWidth='837px'>
+                <Box maxWidth='837px' mb='16px'>
                     <Text
                         textShadow='0px 0px 6px #000000a1;'
                         w={{ base: '100%', lg: '100%' }}
@@ -37,6 +37,7 @@ export default function FirstSection({ isWideVersion = true }: ScreenSize) {
                         Ribbons, Etiquetadoras, Impressoras Térmicas etc.
                     </Text>
                 </Box>
+
                 <Button width='12.5em' bg='#1797C6' variant='solid'>
                     <Text fontWeight='bold' >Fale conosco</Text>
                 </Button>
