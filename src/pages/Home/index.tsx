@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Home | collormaq</title>
+                <title>Home | collormaq - Solução em Etiquetas e Bobinas</title>
                 <meta property="og:home" content="Solução em Etiquetas e Bobinas" key="home" />
                 <meta name="description" content="Collormaq atua na area de Etiquetas e Rótulos personalizados para indústria e comércio. Bobinas Térmicas personalizadas. Ribbons, Etiquetadoras, Impressoras Térmicas etc." />
 

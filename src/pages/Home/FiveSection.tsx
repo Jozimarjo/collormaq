@@ -36,7 +36,7 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
 
                         <Flex flex='1' w='100%' flexWrap='wrap' justify={{ base: 'space-between', xl: 'space-around' }}>
                             <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
-                                <Text as='h1' fontSize='21' width='100px'>
+                                <Text as='p' fontSize='21' width='100px'>
                                     Menu
                                 </Text>
 
@@ -57,7 +57,7 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
                                 </Text>
                             </VStack>
                             <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
-                                <Text as='h1' fontSize='21' width='100px'>
+                                <Text as='p' fontSize='21' width='100px'>
                                     Menu
                                 </Text>
 
@@ -78,7 +78,7 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
                                 </Text>
                             </VStack>
                             <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
-                                <Text as='h1' fontSize='21' width='100px'>
+                                <Text as='p' fontSize='21' width='100px'>
                                     Menu
                                 </Text>
 
