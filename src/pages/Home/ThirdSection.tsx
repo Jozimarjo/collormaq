@@ -84,7 +84,7 @@ export default function ThirdSection() {
                             key={product.id}
                             borderRadius={20}
                         >
-                            <Text as='h1' fontSize={{ base: '28px', lg: '40px' }} fontWeight='bold' color='#305F3C' mb='4'> {product.title} </Text>
+                            <Text as='p' fontSize={{ base: '28px', lg: '40px' }} fontWeight='bold' color='#305F3C' mb='4'> {product.title} </Text>
 
                             <Flex direction={{ base: 'column', sm: 'row', md: 'row', lg: 'row' }}>
                                 <Flex direction='column'>

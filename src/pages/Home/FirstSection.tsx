@@ -5,12 +5,13 @@ import { ScreenSize } from "../../interfaces/ScreenSize";
 export default function FirstSection({ isWideVersion = true }: ScreenSize) {
 
     return (
-        <FirstSectionComponent 
-        isWideVersion={isWideVersion} 
-        bgImage="linear-gradient(59deg, #17179659 0%, #098c4f96 100%),url(/images/home.svg)">
+        <FirstSectionComponent
+            isWideVersion={isWideVersion}
+            bgImage="linear-gradient(59deg, #17179659 0%, #098c4f96 100%),url(/images/home.svg)">
             <>
                 <Flex direction="column" w={{ base: '100%', lg: '100%' }}>
                     <Text
+                        as='h1'
                         textShadow='0px 0px 6px #000000a1;'
                         lineHeight='70px'
                         fontWeight='bold'
@@ -19,6 +20,7 @@ export default function FirstSection({ isWideVersion = true }: ScreenSize) {
                         Solução em Etiquetas {!isWideVersion && 'e'}
                     </Text>
                     <Text
+                        as='p'
                         textShadow='0px 0px 6px #000000a1;'
                         fontWeight='bold'
                         fontSize={{ base: '2.25em', lg: '5em' }}
@@ -29,6 +31,7 @@ export default function FirstSection({ isWideVersion = true }: ScreenSize) {
 
                 <Box maxWidth='837px' mb='16px'>
                     <Text
+                        as='h2'
                         textShadow='0px 0px 6px #000000a1;'
                         w={{ base: '100%', lg: '100%' }}
                         fontWeight='sm'
