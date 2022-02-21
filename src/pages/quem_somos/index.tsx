@@ -1,4 +1,5 @@
 import { Box, Text, useBreakpointValue } from "@chakra-ui/react";
+import Head from "next/head";
 import { EntreContato } from "../../components/EntreContato";
 import FooterComponent from "../../components/Footer";
 import FirstSection from "./FirstSection";
@@ -27,6 +28,10 @@ export default function QuemSomos() {
 
     return (
         <>
+            <Head>
+                <title>Quem somos | collormaq</title>
+                <meta property="og:quem_somos" content="A Collormaq converte etiquetas, rótulos adesivos e bobinas térmicas desde 2003, buscando a cada ano, aperfeiçoamento de nossos serviços e produtos." key="quem_somos" />
+            </Head>
             <FirstSection title={comp.title} subTitle={comp.subTitle} isWideVersion={isWideVersion} />
             <SecondSection />
             <ThirdSection />
