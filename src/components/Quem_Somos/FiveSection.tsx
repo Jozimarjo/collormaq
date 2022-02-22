@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
-export default function FiveSection() {
+export function FiveSection() {
     return (
         <Box w='100%' mb='230px'>
             <Flex w='100%' direction='column' align={{ base: 'flex-start', sm: 'center' }} px='8'>

@@ -2,7 +2,7 @@ import SecondSectionComponent from "../../components/SecondSection";
 import secondMaxImg from '../../../public/images/section_2x.svg';
 import { Box, Button, Divider, Flex, HStack, Text, VStack } from "@chakra-ui/react";
 
-export default function SecondSection() {
+export function SecondSection() {
     const text = ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin, felis ac lacinia finibus, odio dolor convallis augue, et rutrum elit quam eget mi.</br>'
     return (
         <SecondSectionComponent img={secondMaxImg}>

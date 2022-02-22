@@ -1,6 +1,5 @@
 import { Box, Button, Flex, Image, Text, useBreakpointValue } from "@chakra-ui/react";
 import style from '../../styles/Home.module.scss';
-import secondMaxImg from '../../../public/images/mockup_bobina_personalizada.svg'
 
 interface ProductsProps {
     id: number;
@@ -8,7 +7,7 @@ interface ProductsProps {
     title: string;
     img: string;
 }
-export default function ThirdSection() {
+export function ThirdSection() {
     const isSmallVersion = useBreakpointValue({
         base: false,
         sm: true,

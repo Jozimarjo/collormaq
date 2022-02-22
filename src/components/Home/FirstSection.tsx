@@ -2,7 +2,7 @@ import { Box, Button, Flex, Text, useBreakpointValue, VStack } from "@chakra-ui/
 import { FirstSectionComponent } from "../../components/FirstSection";
 import { ScreenSize } from "../../interfaces/ScreenSize";
 
-export default function FirstSection({ isWideVersion = true }: ScreenSize) {
+export function FirstSection({ isWideVersion = true }: ScreenSize) {
 
     return (
         <FirstSectionComponent

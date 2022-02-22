@@ -2,11 +2,11 @@ import { Box, Text, useBreakpointValue } from "@chakra-ui/react";
 import Head from "next/head";
 import { EntreContato } from "../../components/EntreContato";
 import FooterComponent from "../../components/Footer";
-import FirstSection from "./FirstSection";
-import FiveSection from "./FiveSection";
-import FourthSection from "./FourthSection";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
+import { FirstSection } from "../../components/Quem_Somos/FirstSection";
+import { FiveSection } from "../../components/Quem_Somos/FiveSection";
+import { FourthSection } from "../../components/Quem_Somos/FourthSection";
+import { SecondSection } from "../../components/Quem_Somos/SecondSection";
+import { ThirdSection } from "../../components/Quem_Somos/ThirdSection";
 
 export default function QuemSomos() {
     const comp = {

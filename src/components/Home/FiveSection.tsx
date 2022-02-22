@@ -2,7 +2,7 @@ import { Box, Button, Divider, Flex, HStack, Icon, Input, Text, VStack } from "@
 import { RiFacebookFill, RiInstagramLine, RiLinkedinFill, RiWhatsappLine } from "react-icons/ri";
 import { ScreenSize } from "../../interfaces/ScreenSize";
 
-export default function FiveSection({ isWideVersion = true }: ScreenSize) {
+export function FiveSection({ isWideVersion = true }: ScreenSize) {
     return (
         <Box w='100%' backgroundImage="linear-gradient(69deg, rgba(10,27,74,1) 0%, rgba(48,95,60,1) 79%)">
             <Box p={{ base: '30px', md: '82px' }} display='flex' justifyContent='center' align='center' width='100%'>

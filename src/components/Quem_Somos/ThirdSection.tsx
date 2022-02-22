@@ -1,6 +1,6 @@
 import { Box, Flex, HStack, Text, VStack } from "@chakra-ui/react";
 
-export default function ThirdSection() {
+export function ThirdSection() {
     return (
         <Box display='flex' p='30px' flexDirection='column' justifyContent='space-around' alignItems={{ base: 'flex-start', sm: 'center' }} background='#414181' w='100%'>
             <Flex ml={{ base: '0', sm: '0' }} maxWidth='586px' direction='column' align={{ base: 'flex-start', sm: 'center' }} justify='center' width='100%' my='16' >

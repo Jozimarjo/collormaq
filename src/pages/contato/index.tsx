@@ -6,8 +6,7 @@ import { EntreContato } from "../../components/EntreContato";
 
 import FooterComponent from "../../components/Footer";
 import Header from "../../components/Header";
-import CityCard from "./CityCard";
-import OurStores from "./OurStores";
+import {OurStores} from "../../components/OurStores";
 
 export default function Contato() {
     const isWideVersion = useBreakpointValue({
@@ -21,7 +20,7 @@ export default function Contato() {
     return (
         <>
             <Head>
-                <title>Contato | Collormaq - Estamos em Manaus, Boa Vista e Porto Velho</title>
+                <title>Contato | Collormaq - estamos em Manaus, Boa Vista e Porto Velho</title>
                 <meta property="og:contato" content="Fale Conosco, estamos presentes em Manaus, Boa Vista e Porto Velho" key="contato" />
                 <meta name="description" content="Collormaq esta presente em Manaus, Boa Vista e Porto Velho." />
 

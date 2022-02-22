@@ -3,7 +3,7 @@ import SecondSectionComponent from "../../components/SecondSection";
 
 import secondMaxImg from '../../../public/images/section_2x.svg';
 
-export default function FourthSection() {
+export function FourthSection() {
     return (
         <SecondSectionComponent img={secondMaxImg}>
             <VStack align={{ base: 'center', lg: 'flex-start' }} spacing={8}>

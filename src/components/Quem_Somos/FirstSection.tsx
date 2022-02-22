@@ -7,7 +7,7 @@ interface FirstSection extends ScreenSize {
         paragraph: string[]
     }
 }
-export default function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersion = true }: FirstSection) {
+export function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersion = true }: FirstSection) {
     return (
         <FirstSectionComponent
             isWideVersion={isWideVersion}

@@ -1,5 +1,5 @@
 import { Box, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
-export default function FourthSection() {
+export function FourthSection() {
     return (
         <Box>
             <Flex align="center" justifyContent="center" direction={{ base: 'column', md: 'row' }}>

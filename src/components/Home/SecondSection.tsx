@@ -4,7 +4,7 @@ import lopMap from '../../../public/images/position_icon.svg';
 import secondMaxImg from '../../../public/images/section_2x.svg';
 import SecondSectionComponent from "../../components/SecondSection";
 
-export default function SecondSection() {
+export function SecondSection() {
     return (
         <SecondSectionComponent img={secondMaxImg}>
             <>

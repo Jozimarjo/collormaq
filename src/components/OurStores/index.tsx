@@ -1,7 +1,7 @@
 import { Box, Flex, Stack, Text } from "@chakra-ui/react";
-import CityCard from "./CityCard";
+import {CityCard} from "../CityCard";
 
-export default function OurStores() {
+export function OurStores() {
     const cards = [
         {
             img: '/images/quem_somos_section_1.svg', title: 'Manaus',

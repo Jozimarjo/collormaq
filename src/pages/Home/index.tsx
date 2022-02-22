@@ -1,10 +1,10 @@
 import { Flex, useBreakpointValue } from "@chakra-ui/react";
 import Head from "next/head";
-import FirstSection from "./FirstSection";
-import FiveSection from "./FiveSection";
-import FourthSection from "./FourthSection";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
+import {FirstSection} from "../../components/Home/FirstSection";
+import {FiveSection} from "../../components/Home/FiveSection";
+import {FourthSection} from "../../components/Home/FourthSection";
+import {SecondSection} from "../../components/Home/SecondSection";
+import {ThirdSection} from "../../components/Home/ThirdSection";
 
 export default function Home() {
     const isWideVersion = useBreakpointValue({

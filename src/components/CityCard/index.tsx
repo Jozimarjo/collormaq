@@ -5,7 +5,7 @@ interface CityCard {
     title: string;
     description: string;
 }
-export default function CityCard({ img, title, description }: CityCard) {
+export function CityCard({ img, title, description }: CityCard) {
     return (
         <Box maxW='sm' height='485px' overflow='hidden'>
             <Image src={img} alt='img alt' />
