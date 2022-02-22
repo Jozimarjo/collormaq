@@ -37,67 +37,22 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
                         <Flex flex='1' w='100%' flexWrap='wrap' justify={{ base: 'space-between', xl: 'space-around' }}>
                             <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
                                 <Text as='p' fontSize='21' width='100px'>
-                                    Menu
-                                </Text>
-
-                                <Text width='100px' fontSize='16'>
-                                    Informação
+                                    Home
                                 </Text>
                                 <Text width='100px' fontSize='16'>
-                                    Informação
+                                    Solução em Etiquetas e Bobinas Térmicas
                                 </Text>
                                 <Text width='100px' fontSize='16'>
-                                    Informação
+                                    Quem somos
                                 </Text>
                                 <Text width='100px' fontSize='16'>
-                                    Informação
+                                    Soluções em
                                 </Text>
                                 <Text width='100px' fontSize='16'>
-                                    Informação
+                                    Clientes Parceiros
                                 </Text>
                             </VStack>
-                            <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
-                                <Text as='p' fontSize='21' width='100px'>
-                                    Menu
-                                </Text>
-
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                            </VStack>
-                            <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
-                                <Text as='p' fontSize='21' width='100px'>
-                                    Menu
-                                </Text>
-
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                                <Text width='100px' fontSize='16'>
-                                    Informação
-                                </Text>
-                            </VStack>
+                            
                         </Flex>
 
                     </HStack>
