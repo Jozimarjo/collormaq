@@ -4,7 +4,7 @@ import { ScreenSize } from "../../interfaces/ScreenSize";
 
 export default function FooterComponent({ isWideVersion = true }: ScreenSize) {
     return (
-        <Box w='100%' backgroundImage="linear-gradient(69deg, rgba(10,27,74,1) 0%, rgba(48,95,60,1) 79%)">
+        <Box as='footer' w='100%' backgroundImage="linear-gradient(69deg, rgba(10,27,74,1) 0%, rgba(48,95,60,1) 79%)">
             <Box p={{ base: '30px', md: '82px' }} display='flex' justifyContent='center' align='center' width='100%'>
                 <Flex width={{ base: '100%', lg: '82%' }} justify={{ base: 'space-between', lg: 'space-evenly' }}>
                     <Box as='a' href='https://www.google.com'> <Icon fontSize='30' as={RiFacebookFill} /> </Box>
@@ -14,7 +14,7 @@ export default function FooterComponent({ isWideVersion = true }: ScreenSize) {
                 </Flex>
             </Box>
 
-            <Flex justify="center" pl={{ base: '0', lg: '146px' }}>
+            <Flex justify="center" pl={{ base: '0', lg: '146px' }} pb='50px'>
                 <Box width="82%">
                     <HStack alignItems={{ base: 'start', lg: 'start' }} flexDirection={{ base: 'column', lg: 'row' }} spacing={{ base: '0', lg: '16' }}>
                         <Flex flex='1' direction="column">
@@ -105,8 +105,6 @@ export default function FooterComponent({ isWideVersion = true }: ScreenSize) {
 
                 </Box>
             </Flex>
-
-            {isWideVersion && (<Divider mt='15em' ></Divider>)}
 
         </Box >
     )

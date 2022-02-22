@@ -12,7 +12,7 @@ export default function OurStores() {
     ]
 
     return (
-        <Box width='100%' p='30px' background='#f9f9f9' borderBottom='1px solid #eee' textAlign='center'>
+        <Box as='section' width='100%' p='30px' background='#f9f9f9' borderBottom='1px solid #eee' textAlign='center'>
             <Flex direction='column' align='center' mb='70px'>
                 <Text textAlign={{ base: 'left', md: 'center' }} mb='8' fontSize={{ base: '28', md: '48' }} color='#305F3C' fontWeight='bold'>Visite uma de nossas lojas</Text>
                 <Text textAlign={{ base: 'left', md: 'center' }} maxWidth='586px' fontSize='16' color='#262626'>Dispomos de 03 Unidades para melhor servi-lo com qualidade e equipe especializada a tirar todas as suas dúvidas.</Text>
