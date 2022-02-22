@@ -26,8 +26,8 @@ export default function Home() {
                 <FirstSection isWideVersion={isWideVersion} />
                 <SecondSection />
                 <ThirdSection />
-                {/* <FourthSection /> */}
-                {/* <FiveSection isWideVersion={isWideVersion} /> */}
+                <FourthSection />
+                <FiveSection isWideVersion={isWideVersion} />
             </Flex>
         </>
     )

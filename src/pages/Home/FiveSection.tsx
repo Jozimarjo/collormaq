@@ -34,21 +34,21 @@ export default function FiveSection({ isWideVersion = true }: ScreenSize) {
                         {isWideVersion && (<Divider orientation='vertical' height='250px'></Divider>)}
 
 
-                        <Flex flex='1' w='100%' flexWrap='wrap' justify={{ base: 'space-between', xl: 'space-around' }}>
-                            <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'center' }} spacing='4'>
-                                <Text as='p' fontSize='21' width='100px'>
+                        <Flex alignSelf='center' flex='1' w='100%' flexWrap='wrap' justify={{ base: 'space-between', xl: 'space-around' }}>
+                            <VStack mb='20px' mr='20px' alignItems={{ base: 'start', lg: 'start' }} spacing='4'>
+                                <Text as='p' fontSize='21' >
                                     Home
                                 </Text>
-                                <Text width='100px' fontSize='16'>
+                                <Text fontSize='16'>
                                     Solução em Etiquetas e Bobinas Térmicas
                                 </Text>
-                                <Text width='100px' fontSize='16'>
+                                <Text fontSize='16'>
                                     Quem somos
                                 </Text>
-                                <Text width='100px' fontSize='16'>
+                                <Text fontSize='16'>
                                     Soluções em
                                 </Text>
-                                <Text width='100px' fontSize='16'>
+                                <Text fontSize='16'>
                                     Clientes Parceiros
                                 </Text>
                             </VStack>
