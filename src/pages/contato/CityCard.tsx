@@ -13,6 +13,7 @@ export default function CityCard({ img, title, description }: CityCard) {
             <VStack align='start' spacing='4' direction='column'>
                 <Box display='flex' alignItems='baseline'>
                     <Text
+                        as='h3'
                         color='#305F3C'
                         fontWeight='bold'
                         letterSpacing='wide'
@@ -23,6 +24,7 @@ export default function CityCard({ img, title, description }: CityCard) {
                 </Box>
 
                 <Text
+                    as='h5'
                     color='#262626'
                     fontSize={{ base: '13px', md: '13px', lg: '16' }}
                     textAlign='left'

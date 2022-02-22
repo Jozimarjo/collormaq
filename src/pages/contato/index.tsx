@@ -21,8 +21,9 @@ export default function Contato() {
     return (
         <>
             <Head>
-                <title>Contato | collormaq - Fale Conosco, estamos presentes em Manaus, Boa Vista e Porto Velho</title>
+                <title>Contato | Collormaq - Estamos em Manaus, Boa Vista e Porto Velho</title>
                 <meta property="og:contato" content="Fale Conosco, estamos presentes em Manaus, Boa Vista e Porto Velho" key="contato" />
+                <meta name="description" content="Collormaq esta presente em Manaus, Boa Vista e Porto Velho." />
 
             </Head>
             <Box position='relative'>
