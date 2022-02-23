@@ -6,8 +6,7 @@ import { EntreContato } from "../../components/EntreContato";
 
 import FooterComponent from "../../components/Footer";
 import Header from "../../components/Header";
-import CityCard from "./CityCard";
-import OurStores from "./OurStores";
+import {OurStores} from "../../components/OurStores";
 
 export default function Contato() {
     const isWideVersion = useBreakpointValue({
@@ -21,20 +20,24 @@ export default function Contato() {
     return (
         <>
             <Head>
-                <title>Contato | collormaq</title>
+                <title>Contato | Collormaq - estamos em Manaus, Boa Vista e Porto Velho</title>
                 <meta property="og:contato" content="Fale Conosco, estamos presentes em Manaus, Boa Vista e Porto Velho" key="contato" />
+                <meta name="description" content="Collormaq esta presente em Manaus, Boa Vista e Porto Velho." />
 
             </Head>
             <Box position='relative'>
                 <Header position='absolute' zIndex='1' justifyContent='space-around' isWideVersion={isWideVersion} />
-                <Carousel>
-                    <Carousel.Item>
-                        <Box>
-                            <Image flex='1' src='/images/quem_somos_section_1.svg' />
-                        </Box>
-                    </Carousel.Item>
-                </Carousel>
-                <Flex p='30px' justify="space-evenly" my={{ base: '0', md: '100px' }} flexWrap='wrap' >
+                <Box as='section'>
+                    <Carousel>
+                        <Carousel.Item>
+                            <Box>
+                                <Image flex='1' src='/images/quem_somos_section_1.svg' />
+                            </Box>
+                        </Carousel.Item>
+                    </Carousel>
+                </Box>
+
+                <Flex as='section' p='30px' justify="space-evenly" my={{ base: '0', md: '100px' }} flexWrap='wrap' >
                     <VStack spacing='30px' align="start" p='30px' w='540px' height='780' background='white' direction='column' mb={{ base: '50px', xl: '0' }} >
                         <Text color='#305F3C' fontSize={{ base: '34', md: '48' }} fontWeight='bold'>Fale Conosco</Text>
                         <Input focusBorderColor='#305F3C' variant='flushed' placeholder='Nome' />
@@ -56,6 +59,7 @@ export default function Contato() {
                             </Box>
                             <Text color='#707070' fontSize='16' fontWeight='bold'>Funcionamos de Seg à Sex de 07:30h às 12h, 13:15 às 17:15h</Text>
                         </Flex>
+
                         <Flex px='30px' direction='column' justify="center" align="center" maxWidth='540px' height='240px' background='white'>
                             <Text color='#305F3C' fontSize={{ base: '40', md: '48' }} fontWeight='bold'>Boa Vista</Text>
                             <Box alignSelf={{ base: 'start', md: 'center' }}>
@@ -64,6 +68,7 @@ export default function Contato() {
                             </Box>
                             <Text color='#707070' fontSize='16' fontWeight='bold'>Funcionamos de Seg à Sex de 07:30h às 12h, 13:15 às 17:15h</Text>
                         </Flex>
+
                         <Flex px='30px' direction='column' justify="center" align="center" maxWidth='540px' height='240px' background='white'>
                             <Text color='#305F3C' fontSize={{ base: '40', md: '48' }} fontWeight='bold'>Porto Velho</Text>
                             <Box alignSelf={{ base: 'start', md: 'center' }}>

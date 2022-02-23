@@ -1,6 +1,5 @@
 import { Box, Button, Flex, Image, Text, useBreakpointValue } from "@chakra-ui/react";
 import style from '../../styles/Home.module.scss';
-import secondMaxImg from '../../../public/images/mockup_bobina_personalizada.svg'
 
 interface ProductsProps {
     id: number;
@@ -8,7 +7,7 @@ interface ProductsProps {
     title: string;
     img: string;
 }
-export default function ThirdSection() {
+export function ThirdSection() {
     const isSmallVersion = useBreakpointValue({
         base: false,
         sm: true,
@@ -56,10 +55,10 @@ export default function ThirdSection() {
     return (
         <Box as='section' p='7' w='100%' bgColor="#305F3C" display='flex' flexDirection='column' >
             <Flex w='100%' direction='column' align={{ base: 'flex-start', sm: 'center' }}>
-                <Text my='8' fontWeight='bold' fontSize={{ base: '28', sm: '48' }}>
+                <Text as='h6' my='8' fontWeight='bold' fontSize={{ base: '28', sm: '48' }}>
                     Soluções em
                 </Text>
-                <Text mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em'>
+                <Text as='h6' mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em'>
                     Confira nossos produtos, disponibilizamos diversas medidas de etiquetas,
                     ribbons, tinteiros e impressoras térmicas e muito mais
                 </Text>
