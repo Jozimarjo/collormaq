@@ -7,11 +7,12 @@ export default class MyDocument extends Document {
             <Html>
                 <Head>
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
-                    <link rel = "canonical"  href="https://www.collormaq.com/Home" /> 
+                    <link rel="canonical" href="https://www.collormaq.com/Home" />
                     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
                     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
                     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-                    
+                    <meta name="robots" content="all" />
+
                     <link
                         rel="stylesheet"
                         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
