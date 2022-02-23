@@ -23,6 +23,8 @@ export default function Home() {
                 <meta property="og:title" content="Collormaq - Solução em Etiquetas e Bobinas" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.collormaq.com/Home" />
+                <meta name="robots" content="all" />
+
             </Head>
             <Flex w='100%' h='100%' direction='column'>
                 <FirstSection isWideVersion={isWideVersion} />
