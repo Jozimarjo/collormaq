@@ -20,7 +20,7 @@ export function FirstSection({ isWideVersion = true }: ScreenSize) {
                         Solução em Etiquetas {!isWideVersion && 'e'}
                     </Text>
                     <Text
-                        as='p'
+                        as='h2'
                         textShadow='0px 0px 6px #000000a1;'
                         fontWeight='bold'
                         fontSize={{ base: '2.25em', lg: '5em' }}
