@@ -23,7 +23,7 @@ export function SecondSection() {
                 <HStack mt={{ base: '8', lg: '16' }}>
                     <Box width={{ base: '90px', lg: '120px' }} h={{ base: '90px', lg: '120px' }} borderRadius='5px' className={style.box}>
                         <Flex height='100%' justify="space-around" direction='column' align='center' >
-                            <Box w={21} ><Image alt="pointer maps icon" src={lopMap}></Image></Box>
+                            <Box w={21} ><Image alt="pointer maps icon" src='/images/position_icon.svg'></Image></Box>
                             <Flex direction='column' align='center'>
                                 <Text as='h6' color='#262626'>Manaus</Text>
                                 <Text as='h6' fontSize="12" color='#262626'>Amazonas</Text>
@@ -32,7 +32,7 @@ export function SecondSection() {
                     </Box>
                     <Box width={{ base: '90px', lg: '120px' }} h={{ base: '90px', lg: '120px' }} borderRadius='5px' className={style.box}>
                         <Flex height='100%' justify="space-around" direction='column' align='center' >
-                            <Box w={21}><Image alt="pointer maps icon" src={lopMap}></Image></Box>
+                            <Box w={21}><Image alt="pointer maps icon" src='/images/position_icon.svg'></Image></Box>
                             <Flex direction='column' align='center'>
                                 <Text as='h6' color='#262626'>Porto Velho</Text>
                                 <Text as='h6' fontSize="12" color='#262626'>Rondônia</Text>
@@ -41,7 +41,7 @@ export function SecondSection() {
                     </Box>
                     <Box width={{ base: '90px', lg: '120px' }} h={{ base: '90px', lg: '120px' }} borderRadius='5px' className={style.box}>
                         <Flex height='100%' justify="space-around" direction='column' align='center' >
-                            <Box w={21}><Image alt="pointer maps icon" src={lopMap}></Image></Box>
+                            <Box w={21}><Image alt="pointer maps icon" src='/images/position_icon.svg'></Image></Box>
                             <Flex direction='column' align='center'>
                                 <Text as='h6' color='#262626'>Boa Vista</Text>
                                 <Text as='h6' fontSize="12" color='#262626'>Roraima</Text>
