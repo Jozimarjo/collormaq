@@ -20,16 +20,16 @@ module.exports = withPlugins([
   [withImages], {
     reactStrictMode: true,
     disableStaticImages: true,
-    withImages: withImages(),
-    redirects: async () => {
-      return [
-        {
-          source: '/',
-          destination: '/Home', // Matched parameters can be used in the destination
-          permanent: true,
-        },
-      ]
-    }
+    trailingSlash: undefined,
+    // redirects: async () => {
+    //   // return [
+    //   //   {
+    //   //     source: '/',
+    //   //     destination: ' ', // Matched parameters can be used in the destination
+    //   //     permanent: true,
+    //   //   },
+    //   // ]
+    // }
   }
 ]);
 
