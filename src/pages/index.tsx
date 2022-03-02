@@ -21,7 +21,7 @@ export default function Home() {
                 <meta name="description" content="Collormaq atua na area de Etiquetas e Rótulos personalizados para indústria e comércio. Bobinas Térmicas personalizadas. Ribbons, Etiquetadoras, Impressoras Térmicas etc." />
                 <meta property="og:title" content="Collormaq - Solução em Etiquetas e Bobinas" />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.collormaq.com/Home" />
+                <meta property="og:url" content="https://www.collormaq.com" />
                 <meta name="google-site-verification" content="b6yqx-muTE0IfgKmtACFZ13OnkdFXl2f1MjomKWpNzk" />
                 
             </Head>
