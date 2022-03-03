@@ -31,7 +31,7 @@ export default function Contato() {
                     <Carousel>
                         <Carousel.Item>
                             <Box>
-                                <Image flex='1' src='/images/quem_somos_section_1.svg' />
+                                <Image  alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
                             </Box>
                         </Carousel.Item>
                     </Carousel>

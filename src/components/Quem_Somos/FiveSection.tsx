@@ -26,6 +26,7 @@ export function FiveSection() {
                         position='relative'>
 
                         <Image position='absolute'
+                            alt='Imagem de Etiquetas'
                             top={{ base: '28%', md: '21%', lg: '18%' }}
                             right='10%'
                             height='235px'
@@ -66,6 +67,7 @@ export function FiveSection() {
                         position='relative'>
 
                         <Image position='absolute'
+                            alt='Imagem de rotulos'
                             flex={{ base: 0, lg: 1 }}
                             top={{ base: '28%', md: '21%', lg: '18%' }}
                             left={{ base: '5%', lg: '10%' }}
@@ -108,6 +110,7 @@ export function FiveSection() {
                         position='relative'>
 
                         <Image position='absolute'
+                            alt='Imagem de bobinas personalizadas'
                             top={{ base: '28%', md: '21%', lg: '18%' }}
                             right='10%'
                             height='235px'
@@ -147,6 +150,7 @@ export function FiveSection() {
                         position='relative'>
 
                         <Image position='absolute'
+                            alt='Imagem de equipamentos'
                             top={{ base: '28%', md: '21%', lg: '18%' }}
                             left={{ base: '5%', lg: '10%' }}
                             height='235px'

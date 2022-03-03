@@ -5,13 +5,13 @@ export function MenuIconsNav() {
     return (
         <HStack as='nav' spacing="4" mx="8" pr="8" py="1" color="gray.300"  borderColor="gray.700" >
             <Link>
-                <Text fontWeight='bold' color='white'>Menu 1</Text>
+                <Text fontWeight='bold' color='white'>Home</Text>
             </Link>
             <Link>
-                <Text fontWeight='bold' color='white'>Menu 2</Text>
+                <Text fontWeight='bold' color='white'>Quem somos</Text>
             </Link>
             <Link>
-                <Text fontWeight='bold' color='white'>Menu 3</Text>
+                <Text fontWeight='bold' color='white'>Contato</Text>
             </Link>
             <Link>
                 <Text fontWeight='bold' color='white'>Menu 4</Text>
