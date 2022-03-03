@@ -15,22 +15,22 @@ export function FourthSection() {
                 <Box px={{ base: '30px', lg: '50px' }} py={{ base: '30px', lg: '50px' }} >
                     <SimpleGrid columns={2} spacing={10} gridColumnGap={{ base: '0', xl: '170px' }} gridGap={0} gridTemplateColumns={{ base: 'repeat(3, minmax(0, 1fr))', lg: 'repeat(3, minmax(0, 118px))' }}>
                         <Box>
-                            <Image src='/images/parceiro.svg' />
+                            <Image src='/images/parceiro.svg' alt='Imagem de logo de parceiro' />
                         </Box>
                         <Box>
-                            <Image src='/images/parceiro.svg' />
+                            <Image src='/images/parceiro.svg' alt='Imagem de logo de parceiro' />
                         </Box>
                         <Box>
-                            <Image src='/images/parceiro.svg' />
+                            <Image src='/images/parceiro.svg' alt='Imagem de logo de parceiro' />
                         </Box>
                         <Box>
-                            <Image src='/images/parceiro.svg' />
+                            <Image src='/images/parceiro.svg' alt='Imagem de logo de parceiro' />
                         </Box>
                         <Box>
-                            <Image src='/images/parceiro.svg' />
+                            <Image src='/images/parceiro.svg' alt='Imagem de logo de parceiro' />
                         </Box>
                         <Box>
-                            <Image src='/images/parceiro.svg' />
+                            <Image src='/images/parceiro.svg' alt='Imagem de logo de parceiro' />
                         </Box>
                     </SimpleGrid>
                 </Box>
