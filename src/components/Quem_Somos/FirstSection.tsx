@@ -17,6 +17,7 @@ export function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersio
             <>
                 <Flex direction='column' w={{ base: '100%', lg: '100%' }}>
                     <Text
+                        as='h1'
                         textShadow='0px 0px 6px #000000a1;'
                         lineHeight='42px'
                         fontWeight='bold'
@@ -29,6 +30,7 @@ export function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersio
                 <Box maxWidth='844px'>
                     {subTitle.paragraph.map((paragraph) => (
                         <Text
+                        as='h2'
                             key={paragraph}
                             textShadow='0px 0px 6px #000000a1;'
                             w={{ base: '100%', lg: '100%' }}

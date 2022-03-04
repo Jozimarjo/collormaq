@@ -2,12 +2,12 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 export function FiveSection() {
     return (
-        <Box w='100%' mb='230px'>
+        <Box as='section' w='100%' mb='230px'>
             <Flex w='100%' direction='column' align={{ base: 'flex-start', sm: 'center' }} px='8'>
-                <Text my='8' fontWeight='bold' fontSize={{ base: '28', sm: '48' }} color='#414181'>
+                <Text as='h2' my='8' fontWeight='bold' fontSize={{ base: '28', sm: '48' }} color='#414181'>
                     Produtos que desenvolvemos
                 </Text>
-                <Text mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em' color='#262626'>
+                <Text as='p' mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em' color='#262626'>
                     A Collormaq o ajudará a transformar suas idéais em realidade e dar o destaque que seu produto merece. Confira abaixo:
                 </Text>
             </Flex>
@@ -44,7 +44,7 @@ export function FiveSection() {
                         pl='8'
                         justifyContent="space-evenly"
                         alignItems="flex-start">
-                        <Text fontSize='36' fontWeight="bold" color="#262626">Etiquetas</Text>
+                        <Text as='h3' fontSize='36' fontWeight="bold" color="#262626">Etiquetas</Text>
                         <Text fontSize='16' color="#262626" lineHeight='20px' minWidth={{ base: 'none', md: '350px', lg: "410px" }} maxWidth={{ base: 'none', md: '350px', lg: "564px" }}>
                             Soluções em etiquetas adesivas e rótulos para indústria, comércio e serviço.
                             Fornecemos etiquetas em papéis e filmes especiais (bopp, void, couchê, térmico, poliéster, entre outros).
@@ -89,7 +89,7 @@ export function FiveSection() {
                         alignItems="self-end"
                     >
                         <Box display='flex' flexDirection="column">
-                            <Text fontSize='36' fontWeight="bold" color="#262626">Rótulos</Text>
+                            <Text as='h3' fontSize='36' fontWeight="bold" color="#262626">Rótulos</Text>
                             <Text fontSize='16' color="#262626" lineHeight='20px' minWidth={{ base: 'none', md: '350px', lg: "410px" }} maxWidth={{ base: 'none', md: '350px', lg: "564px" }}>
                                 Rótulos adesivos produzidos em diversos materiais, atendendo médias e grandes tiragens com excelente nível de qualidade de impressão.
                             </Text>
@@ -128,7 +128,7 @@ export function FiveSection() {
                         pl='8'
                         justifyContent="space-evenly"
                         alignItems="flex-start">
-                        <Text fontSize='36' fontWeight="bold" color="#262626">Bobinas</Text>
+                        <Text as='h3' fontSize='36' fontWeight="bold" color="#262626">Bobinas</Text>
                         <Text fontSize='16' color="#262626" lineHeight='20px' minWidth={{ base: 'none', md: '350px', lg: "410px" }} maxWidth={{ base: 'none', md: '350px', lg: "564px" }}>
                             Oferecemos ampla linha de bobinas térmicas para Relógio de Ponto, Ponto de Venda, Maquineta de Cartão de Crédito, personalizamos sua bobina com sua marca e garantimos a procedência de nosso material com fornecedores certificados, Venha Conferir!
                         </Text>
@@ -171,7 +171,7 @@ export function FiveSection() {
                         alignItems="self-end"
                     >
                         <Box display='flex' flexDirection="column">
-                            <Text fontSize='36' fontWeight="bold" color="#262626">Equipamentos</Text>
+                            <Text as='h3' fontSize='36' fontWeight="bold" color="#262626">Equipamentos</Text>
                             <Text fontSize='16' color="#262626" lineHeight='20px' minWidth={{ base: 'none', md: '350px', lg: "410px" }} maxWidth={{ base: 'none', md: '350px', lg: "564px" }}>
                                 Etiquetadoras, tinteiros, ribbons, aplicador de tag, impressoras térmicas de etiquetas dentre outros produtos, esperam por você na nossa loja.                            </Text>
                         </Box>

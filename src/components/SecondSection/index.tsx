@@ -1,4 +1,4 @@
-import { Box, Flex, Image} from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
 import React from "react";
 import { ScreenSize } from "../../interfaces/ScreenSize";
 
@@ -8,7 +8,7 @@ interface SecondSectionProps {
 }
 export default function SecondSectionComponent({ img, children }: SecondSectionProps) {
     return (
-        <Box width='100%' p='4' my='125px' bgColor='gray.100'>
+        <Box as='section' width='100%' p='4' my='125px' bgColor='gray.100'>
             <Flex
                 direction={{ base: 'column', lg: 'row' }}
                 justify='space-evenly'
