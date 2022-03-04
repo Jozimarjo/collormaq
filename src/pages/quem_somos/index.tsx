@@ -31,7 +31,7 @@ export default function QuemSomos() {
             <Head>
                 <title>Quem somos | Collormaq</title>
                 {/* <meta property="og:quem_somos" content="A Collormaq converte etiquetas, rótulos adesivos e bobinas térmicas desde 2003, buscando a cada ano, aperfeiçoamento de nossos serviços e produtos." key="quem_somos" /> */}
-                <link rel="canonical" href="https://www.collormaq.com" />
+                <link rel="canonical" href="https://www.collormaq.com/quem_somos" />
                 <meta name="description" content="A Collormaq converte etiquetas, rótulos adesivos e bobinas térmicas desde 2003, buscando a cada ano, aperfeiçoamento de nossos serviços e produtos." />
                 <meta property="og:title" content="Collormaq - quem somos" />
                 <meta property="og:type" content="website" />
