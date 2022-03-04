@@ -19,10 +19,10 @@ export function FirstSectionComponent({ bgImage, children, isWideVersion = true,
             {...rest}
             backgroundImage={bgImage}>
             <Header isWideVersion={isWideVersion} />
-            <Flex mt={{ base: '28', lg: '0' }}
-                align={{ base: 'none', lg: 'center' }}
+            <Flex
+                align={{ base: 'none', md: 'center' }}
                 w='100%' h='100%'>
-                <Flex ml={{ base: '0', lg: '10em', xl: '20em' }} direction='column'>
+                <Flex ml={{ base: '0', md: '10em', xl: '20em' }} direction='column'>
                     <VStack spacing={{ base: '4', xl: '8' }} align='left'>
                         {children}
                     </VStack>

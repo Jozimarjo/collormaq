@@ -7,6 +7,7 @@ export default class MyDocument extends Document {
             <Html lang="pt">
                 <Head>
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
+                    <link rel="icon" href="favicon.ico" />
                     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
                     <meta name="robots" content="all" />
                     {/* <meta name="google-site-verification" content="IBpeO4m3Ruy6MtnHmyWBG8gplHBezmCq7FTXN6KzOkY" /> */}
