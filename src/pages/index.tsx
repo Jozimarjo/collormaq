@@ -22,6 +22,7 @@ export default function Home() {
                 <meta property="og:title" content="Collormaq - Solução em Etiquetas e Bobinas" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.collormaq.com" />
+                <link rel="canonical" href="https://www.collormaq.com" />
                 <meta name="google-site-verification" content="b6yqx-muTE0IfgKmtACFZ13OnkdFXl2f1MjomKWpNzk" />
                 
             </Head>
