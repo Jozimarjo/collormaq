@@ -13,19 +13,12 @@ export function FirstSection({ isWideVersion = true }: ScreenSize) {
                     <Text
                         as='h1'
                         textShadow='0px 0px 6px #000000a1;'
-                        lineHeight='70px'
+                        // lineHeight='70px'
                         fontWeight='bold'
-                        fontSize={{ base: '2.25em', lg: '5em' }}
+                        fontSize={{ base: '36px', md: '54px', lg: '5em' }}
                         color='white'>
-                        Solução em Etiquetas {!isWideVersion && 'e'}
-                    </Text>
-                    <Text
-                        as='h2'
-                        textShadow='0px 0px 6px #000000a1;'
-                        fontWeight='bold'
-                        fontSize={{ base: '2.25em', lg: '5em' }}
-                        color='white'>
-                        {isWideVersion && 'e'} Bobinas Térmicas
+                        Solução em Etiquetas <br />Bobinas Térmicas e Rótulos
+                        {/* {!isWideVersion && 'e'} */}
                     </Text>
                 </Flex>
 
@@ -35,7 +28,7 @@ export function FirstSection({ isWideVersion = true }: ScreenSize) {
                         textShadow='0px 0px 6px #000000a1;'
                         w={{ base: '100%', lg: '100%' }}
                         fontWeight='sm'
-                        fontSize={{ base: '1em', lg: '1.75em' }} color='white'>
+                        fontSize={{ base: '1em', md: '28px', lg: '1.75em' }} color='white'>
                         Etiquetas e Rótulos personalizados para indústria e comércio. Bobinas Térmicas personalizadas.
                         Ribbons, Etiquetadoras, Impressoras Térmicas etc.
                     </Text>
