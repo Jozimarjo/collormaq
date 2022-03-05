@@ -29,7 +29,7 @@ export function ThirdSection() {
         },
         {
             id: 21,
-            title: 'Balanças eletronicas',
+            title: 'Balanças eletrônicas',
             description: 'Variedade de balnças para seu negocio, marcas como prix 3,4,5 , ramuza atena, ramuza dpb , balançaas de precisão e outras',
             img: '/images/products/etiquetas.svg'
         },
@@ -67,10 +67,10 @@ export function ThirdSection() {
     return (
         <Box as='section' p='7' w='100%' bgColor="#305F3C" display='flex' flexDirection='column' >
             <Flex w='100%' direction='column' align={{ base: 'flex-start', sm: 'center' }}>
-                <Text as='h6' my='8' fontWeight='bold' fontSize={{ base: '28', sm: '48' }}>
+                <Text as='h3' my='8' fontWeight='bold' fontSize={{ base: '28', sm: '48' }}>
                     Soluções em
                 </Text>
-                <Text as='h6' mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em'>
+                <Text as='h3' mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em'>
                     Confira nossos produtos, disponibilizamos diversas medidas de etiquetas, bobinas,
                     ribbons, tinteiros e impressoras térmicas e muito mais!
                 </Text>

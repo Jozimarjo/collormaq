@@ -25,8 +25,8 @@ export function SecondSection() {
                         <Flex height='100%' justify="space-around" direction='column' align='center' >
                             <Box w={21} ><Image alt="pointer maps icon" src='/images/position_icon.svg'></Image></Box>
                             <Flex direction='column' align='center'>
-                                <Text as='h6' color='#262626'>Manaus</Text>
-                                <Text as='h6' fontSize="12" color='#262626'>Amazonas</Text>
+                                <Text as='h3' color='#262626'>Manaus</Text>
+                                <Text as='h3' fontSize="12" color='#262626'>Amazonas</Text>
                             </Flex>
                         </Flex>
                     </Box>
@@ -34,8 +34,8 @@ export function SecondSection() {
                         <Flex height='100%' justify="space-around" direction='column' align='center' >
                             <Box w={21}><Image alt="pointer maps icon" src='/images/position_icon.svg'></Image></Box>
                             <Flex direction='column' align='center'>
-                                <Text as='h6' color='#262626'>Porto Velho</Text>
-                                <Text as='h6' fontSize="12" color='#262626'>Rondônia</Text>
+                                <Text as='h3' color='#262626'>Porto Velho</Text>
+                                <Text as='h3' fontSize="12" color='#262626'>Rondônia</Text>
                             </Flex>
                         </Flex>
                     </Box>
@@ -43,8 +43,8 @@ export function SecondSection() {
                         <Flex height='100%' justify="space-around" direction='column' align='center' >
                             <Box w={21}><Image alt="pointer maps icon" src='/images/position_icon.svg'></Image></Box>
                             <Flex direction='column' align='center'>
-                                <Text as='h6' color='#262626'>Boa Vista</Text>
-                                <Text as='h6' fontSize="12" color='#262626'>Roraima</Text>
+                                <Text as='h3' color='#262626'>Boa Vista</Text>
+                                <Text as='h3' fontSize="12" color='#262626'>Roraima</Text>
                             </Flex>
                         </Flex>
                     </Box>
