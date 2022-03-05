@@ -28,6 +28,18 @@ export function ThirdSection() {
             img: '/images/products/etiquetas.svg'
         },
         {
+            id: 21,
+            title: 'Etiquetadoras',
+            description: 'Etiquetadoras e aplicadores',
+            img: '/images/products/etiquetas.svg'
+        },
+        {
+            id: 20,
+            title: 'Ribbons',
+            description: 'Ribbons para etiquetas  com papel couche ',
+            img: '/images/products/etiquetas.svg'
+        },
+        {
             id: 3,
             title: 'Rótulos',
             description: 'Alta qualidade de impressão, com grande lineatura e acabamentos superiores à média de mercado.',
