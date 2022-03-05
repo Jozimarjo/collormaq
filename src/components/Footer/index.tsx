@@ -22,7 +22,8 @@ export default function FooterComponent({ isWideVersion = true }: ScreenSize) {
                             <Text mb='40px' fontSize="16px" fontWeight='normal' maxWidth="480px">
                                 O sistema de impressão em flexografia e offset
                                 combinado com a alta qualificação da equipe garantem
-                                o atendimento de forma personalizada a cada cliente.
+                                o atendimento de forma personalizada a cada cliente. 
+                                Deseja que entremos em contato? coloque seu e-mail e nossos vendedores entrarão em contato.
                             </Text>
                             <Flex direction={{ base: 'column', lg: 'row' }}>
                                 <Input mr='4' variant='flushed' placeholder='Email' />

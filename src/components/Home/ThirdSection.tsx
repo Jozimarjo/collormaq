@@ -28,6 +28,18 @@ export function ThirdSection() {
             img: '/images/products/etiquetas.svg'
         },
         {
+            id: 21,
+            title: 'Balanças eletronicas',
+            description: 'Variedade de balnças para seu negocio, marcas como prix 3,4,5 , ramuza atena, ramuza dpb , balançaas de precisão e outras',
+            img: '/images/products/etiquetas.svg'
+        },
+        {
+            id: 20,
+            title: 'Ribbons',
+            description: ' Ribbons Cera, Misto, Resina, Resina Têxtil e Near Edge para impressão em etiquetas de couché e bopp assim como impressão de código de barras, dados variáveis e identificação de caixas e descrição de produtos.',
+            img: '/images/products/etiquetas.svg'
+        },
+        {
             id: 3,
             title: 'Rótulos',
             description: 'Alta qualidade de impressão, com grande lineatura e acabamentos superiores à média de mercado.',
@@ -59,7 +71,7 @@ export function ThirdSection() {
                     Soluções em
                 </Text>
                 <Text as='h6' mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em'>
-                    Confira nossos produtos, disponibilizamos diversas medidas de etiquetas, bobinas
+                    Confira nossos produtos, disponibilizamos diversas medidas de etiquetas, bobinas,
                     ribbons, tinteiros e impressoras térmicas e muito mais!
                 </Text>
             </Flex>
