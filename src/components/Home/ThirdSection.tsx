@@ -29,14 +29,14 @@ export function ThirdSection() {
         },
         {
             id: 21,
-            title: 'Etiquetadoras',
-            description: 'Etiquetadoras e aplicadores',
+            title: 'Balanças eletronicas',
+            description: 'Variedade de balnças para seu negocio, marcas como prix 3,4,5 , ramuza atena, ramuza dpb , balançaas de precisão e outras',
             img: '/images/products/etiquetas.svg'
         },
         {
             id: 20,
             title: 'Ribbons',
-            description: 'Ribbons para etiquetas  com papel couche ',
+            description: ' Ribbons Cera, Misto, Resina, Resina Têxtil e Near Edge para impressão em etiquetas de couché e bopp assim como impressão de código de barras, dados variáveis e identificação de caixas e descrição de produtos.',
             img: '/images/products/etiquetas.svg'
         },
         {
