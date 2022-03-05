@@ -59,7 +59,7 @@ export function ThirdSection() {
                     Soluções em
                 </Text>
                 <Text as='h6' mb='16' fontSize='16' width={{ base: '100%', lg: '484px' }} maxWidth='31em'>
-                    Confira nossos produtos, disponibilizamos diversas medidas de etiquetas, bobinas
+                    Confira nossos produtos, disponibilizamos diversas medidas de etiquetas, bobinas,
                     ribbons, tinteiros e impressoras térmicas e muito mais!
                 </Text>
             </Flex>
