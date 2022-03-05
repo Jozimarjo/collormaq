@@ -7,7 +7,7 @@ export function FourthSection() {
                     <Text as='h2' fontWeight="bold" maxWidth={{ base: '100%', lg: 'min-content' }} mb='7' fontSize={{ base: "28px", md: "48px" }} color="#262626" lineHeight={{ base: "34px", lg: "64px" }}>
                         Clientes Parceiros
                     </Text>
-                    <Text as='h6' fontSize="16px" maxWidth="480px" color="#262626">
+                    <Text as='h3' fontSize="16px" maxWidth="480px" color="#262626">
                         Conheça nossos clientes e saiba porque estamos há mais de 15 anos,
                         produzindo produtos de alta qualidade para o mercado de flexografia.
                     </Text>

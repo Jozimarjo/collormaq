@@ -1,5 +1,5 @@
 import { Box, Button, Divider, Flex, HStack, Icon, Input, Text, VStack } from "@chakra-ui/react";
-import { RiFacebookFill, RiInstagramLine, RiLinkedinFill, RiWhatsappLine } from "react-icons/ri";
+import { RiFacebookFill, RiInstagramLine, RiYoutubeFill, RiWhatsappLine } from "react-icons/ri";
 import { ScreenSize } from "../../interfaces/ScreenSize";
 
 export function FiveSection({ isWideVersion = true }: ScreenSize) {
@@ -9,8 +9,8 @@ export function FiveSection({ isWideVersion = true }: ScreenSize) {
                 <Flex width={{ base: '100%', lg: '82%' }} justify={{ base: 'space-between', lg: 'space-evenly' }}>
                     <Box as='a' href='https://pt-br.facebook.com/collormaqmanaus/'> <Icon fontSize='30' as={RiFacebookFill} /> </Box>
                     <Box as='a' href='https://www.instagram.com/collormaqmanaus/'> <Icon fontSize='30' as={RiInstagramLine} /></Box>
-                    <Box as='a' href='https://www.google.com'> <Icon fontSize='30' as={RiLinkedinFill} /></Box>
-                    <Box as='a' href='https://www.google.com'> <Icon fontSize='30' as={RiWhatsappLine} /></Box>
+                    <Box as='a' href='https://www.youtube.com/channel/UCFgosH5PKVAmAJY-REMj2kw'> <Icon fontSize='30' as={RiYoutubeFill} /></Box>
+                    <Box as='a' href='https://api.whatsapp.com/send?phone=5592999732214'> <Icon fontSize='30' as={RiWhatsappLine} /></Box>
                 </Flex>
             </Box>
 
