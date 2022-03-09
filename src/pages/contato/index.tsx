@@ -6,7 +6,7 @@ import { EntreContato } from "../../components/EntreContato";
 
 import FooterComponent from "../../components/Footer";
 import Header from "../../components/Header";
-import {OurStores} from "../../components/OurStores";
+import { OurStores } from "../../components/OurStores";
 
 export default function Contato() {
     const isWideVersion = useBreakpointValue({
@@ -21,9 +21,11 @@ export default function Contato() {
         <>
             <Head>
                 <title>Contato | Collormaq - estamos em Manaus, Boa Vista e Porto Velho</title>
-                <meta property="og:contato" content="Fale Conosco, estamos presentes em Manaus, Boa Vista e Porto Velho" key="contato" />
-                <meta name="description" content="Collormaq esta presente em Manaus, Boa Vista e Porto Velho." />
-
+                <link rel="canonical" href="https://www.collormaq.com/contato" />
+                <meta name="description" content="Collormaq esta presente em Manaus, Boa Vista e Porto Velho, faça-nos uma visita." />
+                <meta property="og:title" content="Collormaq - Fale Conosco, estamos presentes em Manaus, Boa Vista e Porto Velho" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://www.collormaq.com/contato" />
             </Head>
             <Box position='relative'>
                 <Header position='absolute' zIndex='1' justifyContent='space-around' isWideVersion={isWideVersion} />
@@ -31,7 +33,12 @@ export default function Contato() {
                     <Carousel>
                         <Carousel.Item>
                             <Box>
-                                <Image  alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
+                                <Image alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
+                            </Box>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Box>
+                                <Image alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
                             </Box>
                         </Carousel.Item>
                     </Carousel>
