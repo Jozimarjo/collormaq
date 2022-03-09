@@ -13,12 +13,10 @@ export function FirstSection({ isWideVersion = true }: ScreenSize) {
                     <Text
                         as='h1'
                         textShadow='0px 0px 6px #000000a1;'
-                        // lineHeight='70px'
                         fontWeight='bold'
                         fontSize={{ base: '36px', md: '54px', lg: '5em' }}
                         color='white'>
                         Solução em Etiquetas <br />Bobinas Térmicas e Rótulos
-                        {/* {!isWideVersion && 'e'} */}
                     </Text>
                 </Flex>
 
