@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, HStack, Icon, Input, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Divider, Flex, HStack, Icon, Input, Link, Text, VStack } from "@chakra-ui/react";
 import { RiFacebookFill, RiInstagramLine, RiYoutubeFill, RiWhatsappLine } from "react-icons/ri";
 import { ScreenSize } from "../../interfaces/ScreenSize";
 
@@ -39,20 +39,29 @@ export function FiveSection({ isWideVersion = true }: ScreenSize) {
                                 <Text as='p' fontSize='21' >
                                     Home
                                 </Text>
-                                <Text fontSize='16'>
-                                    Solução em Etiquetas e Bobinas Térmicas
-                                </Text>
-                                <Text fontSize='16'>
-                                    Quem somos
-                                </Text>
-                                <Text fontSize='16'>
-                                    Soluções em
-                                </Text>
-                                <Text fontSize='16'>
-                                    Clientes Parceiros
-                                </Text>
+                                <Link href="/">
+                                    <Text fontSize='16'>
+                                        Produtos
+                                    </Text>
+                                </Link>
+                                <Link href="/quem_somos">
+                                    <Text fontSize='16'>
+                                        Quem somos
+                                    </Text>
+                                </Link>
+                                <Link href="/contato">
+                                    <Text fontSize='16'>
+                                        Contato
+                                    </Text>
+                                </Link>
+                                <Link href="/">
+                                    <Text fontSize='16'>
+                                        Clientes Parceiros
+                                    </Text>
+                                </Link>
+
                             </VStack>
-                            
+
                         </Flex>
 
                     </HStack>
@@ -60,8 +69,6 @@ export function FiveSection({ isWideVersion = true }: ScreenSize) {
 
                 </Box>
             </Flex>
-
-            {/* {isWideVersion && (<Divider mt='15em' ></Divider>)} */}
 
         </Box >
     )
