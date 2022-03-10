@@ -70,9 +70,12 @@ export default function Produtos() {
                                 <Box >
                                     <Image height='200px' src='/images/products/mockup_bobina_personalizada-lg.svg' />
                                 </Box>
-                                <Box width='33%' color='#000'>
-                                    Etiquetas termicas servem para asid asdjaisjd ijd ai jdai jas ijdasdiajsd anosa
-                                    asd iasdi hasd asd a asd asd as asd as  asd as asd lorem asd as asd 1
+                                <Box width='40%' color='#000'>
+                                <Text color='#000' fontSize='30'> Etiqueta de {selectItem}</Text>
+                                    It is a long established fact that a reader will be distracted by the
+                                    readable content of a page when looking at its layout.
+                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                                    as opposed to using 'Content here, content here
                                 </Box>
                             </Flex>
                         </Carousel.Item>
@@ -81,7 +84,8 @@ export default function Produtos() {
                                 <Box >
                                     <Image height='200px' src='/images/products/mockup_bobina_personalizada-lg.svg' />
                                 </Box>
-                                <Box width='33%' color='#000'>
+                                <Box width='40%' color='#000'>
+                                <Text color='#000' fontSize='30'> Etiqueta de {selectItem}</Text>
                                     Etiquetas termicas servem para asid asdjaisjd ijd ai jdai jas ijdasdiajsd anosa
                                     asd iasdi hasd asd a asd asd as asd as  asd as asd lorem asd as asd 2
                                 </Box>
@@ -92,7 +96,8 @@ export default function Produtos() {
                                 <Box >
                                     <Image height='200px' src='/images/products/mockup_bobina_personalizada-lg.svg' />
                                 </Box>
-                                <Box width='33%' color='#000'>
+                                <Box width='40%' color='#000'>
+                                    <Text color='#000' fontSize='30'> Etiqueta de {selectItem}</Text>
                                     Etiquetas termicas servem para asid asdjaisjd ijd ai jdai jas ijdasdiajsd anosa
                                     asd iasdi hasd asd a asd asd as asd as  asd as asd lorem asd as asd333
                                 </Box>
@@ -102,7 +107,7 @@ export default function Produtos() {
                 </Box>
 
                 <Text as='h2' textAlign='center' fontSize='40px' fontWeight='bold' color='#22543d'>Etiquetas: <strong>{selectItem}</strong> </Text>
-                <Box width={{ base: '78%', xl:'100%' }} margin={{ lg: '0 auto', xl: '0' }}>
+                <Box width={{ base: '78%', xl: '100%' }} margin={{ lg: '0 auto', xl: '0' }}>
                     <Wrap justify='flex-start' mt='50px' spacing='30px'>
                         <WrapItem>
                             <Flex boxShadow='md' direction='column' >
