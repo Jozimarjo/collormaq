@@ -71,11 +71,11 @@ export default function Produtos() {
                                     <Image height='200px' src='/images/products/mockup_bobina_personalizada-lg.svg' />
                                 </Box>
                                 <Box width='40%' color='#000'>
-                                <Text color='#000' fontSize='30'> Etiqueta de {selectItem}</Text>
+                                    <Text color='#000' fontSize='30'> Etiqueta de {selectItem}</Text>
                                     It is a long established fact that a reader will be distracted by the
                                     readable content of a page when looking at its layout.
                                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                    as opposed to using 'Content here, content here
+                                    as opposed to using Content here, content here
                                 </Box>
                             </Flex>
                         </Carousel.Item>
@@ -85,7 +85,7 @@ export default function Produtos() {
                                     <Image height='200px' src='/images/products/mockup_bobina_personalizada-lg.svg' />
                                 </Box>
                                 <Box width='40%' color='#000'>
-                                <Text color='#000' fontSize='30'> Etiqueta de {selectItem}</Text>
+                                    <Text color='#000' fontSize='30'> Etiqueta de {selectItem}</Text>
                                     Etiquetas termicas servem para asid asdjaisjd ijd ai jdai jas ijdasdiajsd anosa
                                     asd iasdi hasd asd a asd asd as asd as  asd as asd lorem asd as asd 2
                                 </Box>
