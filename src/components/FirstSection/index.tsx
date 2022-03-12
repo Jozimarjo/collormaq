@@ -5,9 +5,10 @@ import Header from "../Header";
 
 interface FirstSection extends ScreenSize, ChakraProps {
     bgImage: string;
-    children: React.ReactElement
+    children: React.ReactElement,
+    header?: boolean
 }
-export function FirstSectionComponent({ bgImage, children, isWideVersion = true, ...rest }: FirstSection) {
+export function FirstSectionComponent({ bgImage, children, header = true, isWideVersion = true, ...rest }: FirstSection) {
 
     return (
         <Box
@@ -18,7 +19,7 @@ export function FirstSectionComponent({ bgImage, children, isWideVersion = true,
             px='1.17em'
             {...rest}
             backgroundImage={bgImage}>
-            <Header isWideVersion={isWideVersion} />
+            {header && <Header isWideVersion={isWideVersion} />}
             <Flex
                 align={{ base: 'none', md: 'center' }}
                 w='100%' h='100%'>
