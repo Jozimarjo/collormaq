@@ -1,10 +1,11 @@
-import { Avatar, Box, Button, Flex, Image, Input, Text, useBreakpointValue, Wrap } from "@chakra-ui/react";
+import { Avatar, Box, Button, Flex, Heading, Image, Input, Text, useBreakpointValue, Wrap } from "@chakra-ui/react";
 import { FirstSection } from "../../components/Blog/FirstSection";
 import Head from "next/head";
+import FooterComponent from "../../components/Footer";
 
 export default function Blog() {
     const comp = {
-        title: 'Acesse nosso blog e mantenha-se informado',
+        title: 'Acesse nosso blog e se mantenha informado',
         subTitle: {
             paragraph: [
                 'Aqui você encontra informações sobre o mundo da impressão, flexografia, curiosidades e muito mais.'
@@ -52,6 +53,8 @@ export default function Blog() {
                             <Image borderRadius={'2xl'} marginLeft={'60.5px'} w={'519.5px'} h={'526px'} objectFit='cover' src='https://bit.ly/dan-abramov' alt='Dan Abramov'/>
                         {/* </Box> */}
                     </Flex>
+                    
+                    {/* CARDS DE POSTS */}
                     <Wrap spacing={'27px'}>
                         <Flex w={'348.33px'} flexDirection={'column'}>
                             <Image borderRadius={'2xl'} mb={'21.3px'} mt={'50px'} w={'348.33px'} h={'194.46px'} objectFit='cover' src='https://bit.ly/dan-abramov' alt='Dan Abramov'/>
@@ -92,6 +95,8 @@ export default function Blog() {
                     </Wrap>
                 </Flex>
                 
+
+                {/* INSCREVA-SE EM NOSSO BLOG */}
                 <Flex mt={'100px'} justifyContent={'center'} w={'100%'} h={'250px'}
                     bg='linear-gradient(59deg, #174a96 0%, #098c4f66 100%)'
                 >
@@ -106,8 +111,134 @@ export default function Blog() {
                         </Flex>
                     </Flex>
                 </Flex>
+
+                {/* VER MAIS POSTS     */}
+                <Flex w='1200px' alignItems={'center'} marginX={'auto'}>
+
+                    <Flex flexDirection={'column'} w={'100%'}>
+
+                        <Heading color={'#262626'} fontSize={'48px'} fontWeight={'bold'} marginBottom={'60px'} marginTop={'100px'}>Recentes</Heading>
+                    
+                            <Flex>
+                                <Flex flexDirection={'column'}>
+                                    <Flex alignItems={'center'} marginBottom={'60px'}>
+                                        <Image w={'250px'} h={'150px'} borderRadius={'2xl'} src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
+                                        <Flex flexDirection={'column'} marginLeft={'30px'} w={'514px'}>
+                                            <Text color={'#262626'} fontWeight={'medium'} lineHeight={'48px'} fontSize={'32px'}>
+                                                Highly Delighted Present<br/> Tropical to sub-Tropical Tree
+                                            </Text>
+                                            <Flex justifyContent={'space-between'} alignItems={'center'} marginTop={'15px'}>
+                                            <Flex alignItems={'center'}>
+                                                <Avatar w={'20px'} h={'20px'} />
+                                                <Text fontSize={'14px'} color={'#262626'} marginLeft={'10px'}>Autor</Text>
+                                            </Flex>
+                                            <Text fontSize={'14px'} color={'#262626'}>14 de Marça de 2022</Text>
+                                        </Flex>
+                                        </Flex>
+                                    </Flex>
+                                    <Flex alignItems={'center'} marginBottom={'60px'}>
+                                        <Image w={'250px'} h={'150px'} borderRadius={'2xl'} src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
+                                        <Flex flexDirection={'column'} marginLeft={'30px'} w={'514px'}>
+                                            <Text color={'#262626'} fontWeight={'medium'} lineHeight={'48px'} fontSize={'32px'}>
+                                                Highly Delighted Present<br/> Tropical to sub-Tropical Tree
+                                            </Text>
+                                            <Flex justifyContent={'space-between'} alignItems={'center'} marginTop={'15px'}>
+                                            <Flex alignItems={'center'}>
+                                                <Avatar w={'20px'} h={'20px'} />
+                                                <Text fontSize={'14px'} color={'#262626'} marginLeft={'10px'}>Autor</Text>
+                                            </Flex>
+                                            <Text fontSize={'14px'} color={'#262626'}>14 de Marça de 2022</Text>
+                                        </Flex>
+                                        </Flex>
+                                    </Flex>
+                                    <Flex alignItems={'center'} marginBottom={'60px'}>
+                                        <Image w={'250px'} h={'150px'} borderRadius={'2xl'} src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
+                                        <Flex flexDirection={'column'} marginLeft={'30px'} w={'514px'}>
+                                            <Text color={'#262626'} fontWeight={'medium'} lineHeight={'48px'} fontSize={'32px'}>
+                                                Highly Delighted Present<br/>Tropical to sub-Tropical Tree
+                                            </Text>
+                                            <Flex justifyContent={'space-between'} alignItems={'center'} marginTop={'15px'}>
+                                            <Flex alignItems={'center'}>
+                                                <Avatar w={'20px'} h={'20px'} />
+                                                <Text fontSize={'14px'} color={'#262626'} marginLeft={'10px'}>Autor</Text>
+                                            </Flex>
+                                            <Text fontSize={'14px'} color={'#262626'}>14 de Marça de 2022</Text>
+                                        </Flex>
+                                        </Flex>
+                                    </Flex>
+                                    <Flex alignItems={'center'} marginBottom={'60px'}>
+                                        <Image w={'250px'} h={'150px'} borderRadius={'2xl'} src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
+                                        <Flex flexDirection={'column'} marginLeft={'30px'} w={'514px'}>
+                                            <Text color={'#262626'} fontWeight={'medium'} lineHeight={'48px'} fontSize={'32px'}>
+                                                Highly Delighted Present<br/> Tropical to sub-Tropical Tree
+                                            </Text>
+                                            <Flex justifyContent={'space-between'} alignItems={'center'} marginTop={'15px'}>
+                                            <Flex alignItems={'center'}>
+                                                <Avatar w={'20px'} h={'20px'} />
+                                                <Text fontSize={'14px'} color={'#262626'} marginLeft={'10px'}>Autor</Text>
+                                            </Flex>
+                                            <Text fontSize={'14px'} color={'#262626'}>14 de Marça de 2022</Text>
+                                        </Flex>
+                                        </Flex>
+                                    </Flex>
+                                    <Flex alignItems={'center'} marginBottom={'60px'}>
+                                        <Image w={'250px'} h={'150px'} borderRadius={'2xl'} src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
+                                        <Flex flexDirection={'column'} marginLeft={'30px'} w={'514px'}>
+                                            <Text color={'#262626'} fontWeight={'medium'} lineHeight={'48px'} fontSize={'32px'}>
+                                                Highly Delighted Present<br/> Tropical to sub-Tropical Tree
+                                            </Text>
+                                            <Flex justifyContent={'space-between'} alignItems={'center'} marginTop={'15px'}>
+                                            <Flex alignItems={'center'}>
+                                                <Avatar w={'20px'} h={'20px'} />
+                                                <Text fontSize={'14px'} color={'#262626'} marginLeft={'10px'}>Autor</Text>
+                                            </Flex>
+                                            <Text fontSize={'14px'} color={'#262626'}>14 de Marça de 2022</Text>
+                                        </Flex>
+                                        </Flex>
+                                    </Flex>
+                                    <Flex alignItems={'center'} marginBottom={'82px'}>
+                                        <Image w={'250px'} h={'150px'} borderRadius={'2xl'} src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
+                                        <Flex flexDirection={'column'} marginLeft={'30px'} w={'514px'}>
+                                            <Text color={'#262626'} fontWeight={'medium'} lineHeight={'48px'} fontSize={'32px'}>
+                                                Highly Delighted Present<br/> Tropical to sub-Tropical Tree
+                                            </Text>
+                                            <Flex justifyContent={'space-between'} alignItems={'center'} marginTop={'15px'}>
+                                            <Flex alignItems={'center'}>
+                                                <Avatar w={'20px'} h={'20px'} />
+                                                <Text fontSize={'14px'} color={'#262626'} marginLeft={'10px'}>Autor</Text>
+                                            </Flex>
+                                            <Text fontSize={'14px'} color={'#262626'}>14 de Marça de 2022</Text>
+                                        </Flex>
+                                        </Flex>
+                                    </Flex>
+                                </Flex>
+                            
+                                <Flex flexDirection={'column'}>
+                                    <Flex ml={'60px'} mb={'60px'} color={'#121212'} fontSize={'32px'} alignItems={'center'} justify={'center'} w={'396px'} h={'350px'} bg={'#D6D6D6'}>Anúncio</Flex>
+                                    <Flex ml={'60px'} mb={'60px'} color={'#121212'} fontSize={'32px'} alignItems={'center'} justify={'center'} w={'396px'} h={'350px'} bg={'#D6D6D6'}>Anúncio</Flex>
+                                    <Flex ml={'60px'} mb={'60px'} color={'#121212'} fontSize={'32px'} alignItems={'center'} justify={'center'} w={'396px'} h={'350px'} bg={'#D6D6D6'}>Anúncio</Flex>
+                                </Flex>
+                            </Flex>
+
+                            <Flex justifyContent={'center'}>
+                                <Button w={'200px'} h={'50px'} bg={'#414181'}>Ver mais posts</Button>
+                            </Flex>
+                    </Flex>
+                </Flex>
+
+                {/* ENTRE EM CONTATO */}
+                <Flex mt={'111px'} justifyContent={'center'} w={'100%'} h={'440px'}
+                    bg='linear-gradient(59deg, #174a96 0%, #098c4f66 100%)'
+                >
+                    <Flex flexDirection={'column'} w='1200px' alignItems={'center'} justifyContent={'center'}>
+                        <Text fontSize={'60px'} fontWeight={'bold'} mb={'34px'}>Entre em contato</Text>
+                        <Button bg={'#098C4F'}>Peça um orçamento</Button>
+                    </Flex>
+                </Flex>
+
+                <FooterComponent isWideVersion={isWideVersion}/>
+
             </Box>
-          
         </Flex>
     )
 }
