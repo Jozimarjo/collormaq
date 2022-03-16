@@ -7,7 +7,7 @@ import SecondSectionComponent from "../../components/SecondSection";
 export function SecondSection() {
     return (
         <SecondSectionComponent img={secondMaxImg}>
-            <Box as='section'>
+            <Box>
                 <Text as='h2' fontWeight='bold' color='green.800' fontSize={{ base: '28', lg: '48' }}>
                     Quem somos
                 </Text>
