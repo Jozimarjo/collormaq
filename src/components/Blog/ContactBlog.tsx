@@ -1,15 +1,17 @@
-import { Button, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text } from "@chakra-ui/react";
 
 
 export function ContactBlog() {
     return (
-        <Flex mt={'111px'} justifyContent={'center'} w={'100%'} h={'440px'}
-                    bg='linear-gradient(59deg, #174a96 0%, #098c4f66 100%)'
-                >
-                    <Flex flexDirection={'column'} w='1200px' alignItems={'center'} justifyContent={'center'}>
-                        <Text fontSize={'60px'} fontWeight={'bold'} mb={'34px'}>Entre em contato</Text>
-                        <Button bg={'#098C4F'}>Peça um orçamento</Button>
-                    </Flex>
-                </Flex>
+        <Box as='section' w='100%' mt={'111px'} height={{ base: '248px', md: '440px' }}
+            backgroundImage='linear-gradient(0deg, rgb(33 52 114 / 72%) 0%, rgb(33 52 114 / 26%) 100%),url(/images/footer.svg)'
+            backgroundRepeat='no-repeat'>
+            <Flex direction='column' justify="center" alignItems="center" height="100%">
+                <Text mb='8' fontSize={{ base: '28', md: "60" }} fontWeight="bold">Entre em Contato</Text>
+                <Button width='12.5em' bg='#047a43' variant='solid'>
+                    <Text fontWeight='bold'>Peça um orçamento</Text>
+                </Button>
+            </Flex>
+        </Box>
     )
 }
