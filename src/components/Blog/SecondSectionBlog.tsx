@@ -35,7 +35,7 @@ export default function SecondSectionBlog() {
                                 14 de Março de 2022
                             </Text>
                             <Text color={'#1D211F'} fontSize={'16px'}>
-                                Would be the word "and" and the Little Blind Text should turn around and return
+                                Would be the word and and the Little Blind Text should turn around and return
                             </Text>
                         </Flex>
                         <Flex w={'348.33px'} flexDirection={'column'}>
@@ -47,7 +47,7 @@ export default function SecondSectionBlog() {
                                 14 de Março de 2022
                             </Text>
                             <Text color={'#1D211F'} fontSize={'16px'}>
-                                Would be the word "and" and the Little Blind Text should turn around and return
+                                Would be the word and and the Little Blind Text should turn around and return
                             </Text>
                         </Flex>
                         <Flex w={'348.33px'} flexDirection={'column'}>
@@ -59,7 +59,7 @@ export default function SecondSectionBlog() {
                                 14 de Março de 2022
                             </Text>
                             <Text color={'#1D211F'} fontSize={'16px'}>
-                                Would be the word "and" and the Little Blind Text should turn around and return
+                                Would be the word and and the Little Blind Text should turn around and return
                             </Text>
                         </Flex>
                     </Wrap>
