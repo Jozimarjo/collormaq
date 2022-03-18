@@ -1,4 +1,5 @@
 import { Avatar, Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { SignUpReading } from "./SignUpReading";
 
 export function FirstSectionReading() {
     return (
@@ -64,7 +65,6 @@ export function FirstSectionReading() {
                     </Flex>
                 </Flex>
             </Flex>
-
         </Box>
         )
 }

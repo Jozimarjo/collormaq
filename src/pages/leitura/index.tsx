@@ -5,6 +5,8 @@ import { EntreContato } from "../../components/EntreContato";
 import FooterComponent from "../../components/Footer";
 import Header from "../../components/Header";
 import { FirstSectionReading } from "../../components/Reading/FirstSectionReading";
+import { PostsRelated } from "../../components/Reading/PostsRelated";
+import { SignUpReading } from "../../components/Reading/SignUpReading";
 
 export default function Leitura() {
     const isWideVersion = useBreakpointValue({
@@ -27,6 +29,8 @@ export default function Leitura() {
             <Box>
                 <Header color={'#000'} bg={'#414181'} isWideVersion={true}/>
                 <FirstSectionReading />
+                <SignUpReading />
+                <PostsRelated />
                 <EntreContato />
                 <FooterComponent isWideVersion={isWideVersion} />
             </Box>
