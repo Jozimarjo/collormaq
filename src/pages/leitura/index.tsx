@@ -25,7 +25,7 @@ export default function Leitura() {
                 <meta property="og:url" content="https://www.collormaq.com/leitura" />
             </Head>
             <Box>
-                <Header bg={'#414181'} isWideVersion={true}/>
+                <Header color={'#000'} bg={'#414181'} isWideVersion={true}/>
                 <FirstSectionReading />
                 <EntreContato />
                 <FooterComponent isWideVersion={isWideVersion} />

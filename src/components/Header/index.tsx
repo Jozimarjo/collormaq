@@ -1,12 +1,13 @@
 import { ChakraProps, Flex } from "@chakra-ui/react";
-import { MenuIconsNav } from "./MenuIconsNav";
+import { MenuIconProps, MenuIconsNav } from "./MenuIconsNav";
 import { Logo } from "./Logo";
 import { ScreenSize } from "../../interfaces/ScreenSize";
 
-interface HeaderProps extends ChakraProps, ScreenSize {
+
+interface HeaderProps extends ScreenSize, MenuIconProps {
 
 }
-export default function Header({ isWideVersion = true, ...rest }: HeaderProps) {
+export default function Header({ isWideVersion = true, color, ...rest }: HeaderProps) {
     return (
         <Flex
             as="header"
@@ -21,7 +22,7 @@ export default function Header({ isWideVersion = true, ...rest }: HeaderProps) {
         >
             <Logo />
             <Flex align="center">
-                {!!isWideVersion && (<MenuIconsNav />)}
+                {!!isWideVersion && (<MenuIconsNav color={color} />)}
             </Flex>
         </Flex>
     )
