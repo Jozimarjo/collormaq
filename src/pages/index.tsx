@@ -23,8 +23,8 @@ export default function Home() {
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.collormaq.com" />
                 <link rel="canonical" href="https://www.collormaq.com" />
-                <meta name="google-site-verification" content="b6yqx-muTE0IfgKmtACFZ13OnkdFXl2f1MjomKWpNzk" />
-                
+                {/* <meta name="google-site-verification" content="b6yqx-muTE0IfgKmtACFZ13OnkdFXl2f1MjomKWpNzk" /> */}
+                <meta name="google-site-verification" content="IBpeO4m3Ruy6MtnHmyWBG8gplHBezmCq7FTXN6KzOkY" />
             </Head>
             <Flex w='100%' h='100%' direction='column'>
                 <FirstSection isWideVersion={isWideVersion} />
