@@ -26,6 +26,7 @@ export default function Contato() {
                 <meta property="og:title" content="Collormaq - Fale Conosco, estamos presentes em Manaus, Boa Vista e Porto Velho" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.collormaq.com/contato" />
+                <meta name="google-site-verification" content="IBpeO4m3Ruy6MtnHmyWBG8gplHBezmCq7FTXN6KzOkY" />
             </Head>
             <Box position='relative'>
                 <Header position='absolute' zIndex='1' justifyContent='space-around' isWideVersion={isWideVersion} />

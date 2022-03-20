@@ -18,7 +18,6 @@ export default function QuemSomos() {
         }
     }
 
-
     const isWideVersion = useBreakpointValue({
         base: false,
         sm: false,
@@ -36,6 +35,7 @@ export default function QuemSomos() {
                 <meta property="og:title" content="Collormaq - quem somos" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.collormaq.com/quem_somos" />
+                <meta name="google-site-verification" content="IBpeO4m3Ruy6MtnHmyWBG8gplHBezmCq7FTXN6KzOkY" />
             </Head>
             <FirstSection title={comp.title} subTitle={comp.subTitle} isWideVersion={isWideVersion} />
             <SecondSection />
