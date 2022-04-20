@@ -63,10 +63,11 @@ export function FiveSection({ isWideVersion = true }: ScreenSize) {
                             </VStack>
 
                         </Flex>
-
                     </HStack>
 
-
+                    <Flex justify="center" align="center" height='10%' mt='33px'>
+                        <Text>COLLORMAQ INDUSTRIA E COMERCIO DE ETIQUETAS E BOBINAS LTDA | CNPJ:18.207.729/0001-07</Text>
+                    </Flex>
                 </Box>
             </Flex>
 

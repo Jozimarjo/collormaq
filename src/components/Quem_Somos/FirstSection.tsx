@@ -21,7 +21,7 @@ export function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersio
                         textShadow='0px 0px 6px #000000a1;'
                         fontWeight='bold'
                         mb='4'
-                        fontSize={{ base: '2.25em', md:'54px',lg: '5em' }}
+                        fontSize={{ base: '2.25em', md: '54px', lg: '5em' }}
                         color='white'>
                         {title}
                     </Text>
@@ -29,7 +29,7 @@ export function FirstSection({ title, subTitle = { paragraph: [] }, isWideVersio
                 <Box maxWidth='844px'>
                     {subTitle.paragraph.map((paragraph) => (
                         <Text
-                        as='h2'
+                            as='h2'
                             key={paragraph}
                             textShadow='0px 0px 6px #000000a1;'
                             w={{ base: '100%', lg: '100%' }}

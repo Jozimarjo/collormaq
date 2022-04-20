@@ -39,7 +39,7 @@ export default function FooterComponent({ isWideVersion = true }: ScreenSize) {
                                 <Text as='p' fontSize='21' >
                                     Home
                                 </Text>
-                                <Link href="/">
+                                <Link href="/produtos">
                                     <Text fontSize='16'>
                                         Produtos
                                     </Text>

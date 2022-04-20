@@ -30,16 +30,16 @@ export default function Contato() {
             </Head>
             <Box position='relative'>
                 <Header position='absolute' zIndex='1' justifyContent='space-around' isWideVersion={isWideVersion} />
-                <Box as='section'>
+                <Box as='section' height='500px'>
                     <Carousel>
                         <Carousel.Item>
                             <Box>
-                                <Image alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
+                                <Image maxWidth='100%' h='auto' w='100%' alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
                             </Box>
                         </Carousel.Item>
                         <Carousel.Item>
                             <Box>
-                                <Image alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
+                                <Image maxWidth='100%' h='auto' w='100%' alt='Imagem da empresa' flex='1' src='/images/quem_somos_section_1.svg' />
                             </Box>
                         </Carousel.Item>
                     </Carousel>

@@ -1,13 +1,10 @@
 import { Box, Button, Flex, HStack, Image, Text } from "@chakra-ui/react";
-import SecondSectionComponent from "../SecondSection";
-import secondMaxImg from '../../../public/images/section_2x.svg';
-import { FirstSectionComponent } from "../FirstSection";
 import { RiArrowRightLine } from "react-icons/ri";
 
 export function ProductSecondSectionComponent() {
     return (
         <>
-            <Box my='100px' w='100%' px='1.17em' header={false} opacity='1' height='auto' bgImage='white'>
+            <Box my='100px' w='100%' px='1.17em' opacity='1' height='auto' bgImage='#FFFFFF'>
                 <Flex justify='center'>
                     <Box ml='136px' flex='1'>
                         <Image height='550px' src='http://d2r9epyceweg5n.cloudfront.net/stores/902/999/products/bobina-termica-80x4041-1bb5041ed233033c4215512067391815-640-0.png' ></Image>
@@ -28,9 +25,7 @@ export function ProductSecondSectionComponent() {
                         </Button>
 
                     </Box>
-                    {/* <Box ml='136px' flex='1'>
-                        <Image height='550px' src='http://d2r9epyceweg5n.cloudfront.net/stores/902/999/products/bobina-termica-80x4041-1bb5041ed233033c4215512067391815-640-0.png' ></Image>
-                    </Box> */}
+
                 </Flex>
 
 
